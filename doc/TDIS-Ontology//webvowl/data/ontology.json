@@ -1,0 +1,2672 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "https://w3id.org/metadata/tdis_organizations", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/owl/owlapi/turtle" ],
+    "iri" : "https://w3id.org/metadata/tdis"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "112",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "11",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "146",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "137",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "138",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "132",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "155",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "123",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "53",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "158",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "159",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "127",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "124",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "135",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "133",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "115",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "21",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "12",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collection"
+    },
+    "comment" : {
+      "undefined" : "Collections group one or more layers, artifacts and/or models together. For example, a complex geospatial database object would be represented as a collection containing multiple data layers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Layer"
+    },
+    "comment" : {
+      "undefined" : "Data layers represent digital objects with intrinsic spatial characteristics and include (but are not limited to) streets, city boundaries, river gages, and imagery with geospatial information contained within files or made available via service endpoints"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ServiceEndpoint"
+    },
+    "comment" : {
+      "undefined" : "The service endpoint for a digital object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Model",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Model"
+    },
+    "comment" : {
+      "undefined" : "Models represent model software packages and configurations, which may be associated with input and/or output artifacts or data layers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "54", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "63"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "64"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "8", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "71"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "86", "87" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "86", "87" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://w3id.org/metadata/tdis_organizations#Organization",
+    "baseIri" : "https://w3id.org/metadata/tdis_organizations",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Publisher",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publisher"
+    },
+    "comment" : {
+      "undefined" : "Publisher of a digital object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "27"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contact"
+    },
+    "comment" : {
+      "undefined" : "Point of Contact for any item in the Collection"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artifact"
+    },
+    "comment" : {
+      "undefined" : "Artifacts represent digital objects such as text and images within documents, data within spreadsheets, or other data made available via service endpoints. Artifacts do not contain geometry information (points, lines, or polygons) or images with spatial information."
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "140"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ServiceEndpointType"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#SOAP",
+      "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+      "comment" : {
+        "undefined" : "Simple Object Access Protocol"
+      },
+      "labels" : {
+        "IRI-based" : "SOAP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#REST",
+      "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+      "comment" : {
+        "undefined" : "Representational State Transfer"
+      },
+      "labels" : {
+        "IRI-based" : "REST"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Endpoint Type : REST or SOAP"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "145",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "11"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ModelConfiguration"
+    },
+    "comment" : {
+      "undefined" : "Model configurations represent a unique way of running a model, exposing concrete inputs, outputs, and parameters. These metadata are under active development"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "54", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "126"
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "7", "54", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "137"
+  }, {
+    "instances" : 0,
+    "union" : [ "86", "87" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "138"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "52"
+  }, {
+    "instances" : 0,
+    "union" : [ "86", "87" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "46"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "13", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "132"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "155"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "79",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "53",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "158",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "159",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "127",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "124",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "135",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "133",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "115",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "21",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feature"
+    },
+    "comment" : {
+      "undefined" : "Features, as a part of a data layer, are a record-by-record description of each independent “row” in a geospatial attribute table or database."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#Distributor",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Distributor"
+    },
+    "comment" : {
+      "undefined" : "Distributor of a digital object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "18",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "106",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "12",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "2",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Access",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDistributionUrl",
+      "undefined" : "Distribution URL"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The URL where the digital object can be accessed via a service endpoint, API, etc."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "5",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProcessingStepDate",
+      "undefined" : "Processing Step Date"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "The date when a particular processing step was completed. Must conform to the ISO 8601 standard."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "12",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasClassificationSystem",
+      "undefined" : "Classification System"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "TBD"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "16",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasChainOfCustody",
+      "undefined" : "Chain of Custody"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "18",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHorizontalDatum",
+      "undefined" : "Horizontal Datum"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "21",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHorizontalAccuracyMethod",
+      "undefined" : "Horizontal Accuracy Method"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Method for determining accuracy of the data."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCreator",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "23",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "undefined" : "Creator"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an \"author\" or \"contributor\"."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "28",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Coverage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSpatialExtent",
+      "undefined" : "Spatial Extent (Decimal Degrees)"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "30",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttributeDescription",
+      "undefined" : "Attribute Description"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Description of the attribute (field, variable) within the attribute table for this layer."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "32",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttributeAccuracy",
+      "undefined" : "Attribute Accuracy"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "37",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasValueRangeMinimum",
+      "undefined" : "Value Range Minimum"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The minimumum value in a range of valid values."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "44",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttributeName",
+      "undefined" : "Attribute Name"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Name of the attribute (field, variable) within the attribute table for this layer."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "47",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Access",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasOrganization",
+      "undefined" : "Distributor or Publisher"
+    },
+    "domain" : "46",
+    "comment" : {
+      "undefined" : "The organization sharing, publishing, or otherwise responsible for providing access to the digital object."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "50",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDateSubmitted",
+      "undefined" : "Date Submitted"
+    },
+    "domain" : "49",
+    "comment" : {
+      "undefined" : "Date the digital object or metadata record was submitted to TDIS. Must conform to the ISO 8601 standard."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "53",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasKeywordVocabulary",
+      "undefined" : "Keyword Vocabulary"
+    },
+    "domain" : "52",
+    "comment" : {
+      "undefined" : "Vocabulary for subject matter keywords listed in Keyword Term."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "58",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Access",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasServiceEndpointType",
+      "undefined" : "Service Endpoint Type"
+    },
+    "domain" : "57",
+    "comment" : {
+      "undefined" : "The type of service endpoint used for distribution."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVersion",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "61",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVersion",
+      "undefined" : "Version"
+    },
+    "domain" : "60",
+    "comment" : {
+      "undefined" : "Version number of the digital object."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "18",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasAttributeDomainType",
+      "undefined" : "Attribute Domain Type"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Domain for values in the attribute (field, variable) within the attribute table."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactName",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "38",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Contact Information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasContactName",
+      "undefined" : "Contact Name"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Name of a person who is a responsible point of contact."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "74",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSoftwareVersion",
+      "undefined" : "Software Version"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "The version of the software used to create or work with the digital object."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "76",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHorizontalAccuracy",
+      "undefined" : "Horizontal Accuracy (Meters)"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Numeric value for the accuracy in meters."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "18",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasHorizontalCoordinateSystem",
+      "undefined" : "Horizontal Coordinate System"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A projected coordinate system is a planar system that uses two-dimensional coordinates and linear distance measurements as units. A projected coordinate system is based on a geographic coordinate system and a map projection."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "79",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Contact Information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasContactRole",
+      "undefined" : "Contact Role"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "The role(s) of the point of contact toward the digital object and its management."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "84",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Coverage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPlacenameOrLocality",
+      "undefined" : "Placename or Locality"
+    },
+    "domain" : "83",
+    "comment" : {
+      "undefined" : "Placename from GeoNames (http://www.geonames.org)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "hasServiceEndpoint"
+    },
+    "domain" : "63",
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDescription",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "95",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDescription",
+      "undefined" : "Description "
+    },
+    "domain" : "94",
+    "comment" : {
+      "undefined" : "An account of the digital object. The description may include an abstract, a table of contents, or a free-text account."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "90",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Access",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDistributionMethod",
+      "undefined" : "Distribution Method"
+    },
+    "domain" : "91",
+    "comment" : {
+      "undefined" : "A statement describing the method of distribution and access provided by the Distributor or Publisher."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "24",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCreationDate",
+      "undefined" : "Creation Date"
+    },
+    "domain" : "25",
+    "comment" : {
+      "undefined" : "Date the digital object was originally created. Must conform to the ISO 8601 standard."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "106",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasUpdateFrequency",
+      "undefined" : "Update Frequency"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "How often the content is updated."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "109",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPurpose",
+      "undefined" : "Purpose"
+    },
+    "domain" : "108",
+    "comment" : {
+      "undefined" : "A description of the purpose for the creation of this digital object and/or the expected use."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "21",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVerticalAccuracyMethod",
+      "undefined" : "Vertical Accuracy Method"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Method for determining accuracy of the data."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "113",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProcessingStepSource",
+      "undefined" : "Processing Step Source"
+    },
+    "domain" : "112",
+    "comment" : {
+      "undefined" : "The name of a person or organization who performed the modifications described in the associated Processing Step Description."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "115",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasUseConstraint",
+      "undefined" : "Use Constraint"
+    },
+    "domain" : "62",
+    "comment" : {
+      "undefined" : "Constraints or restrictions on use of the digital object."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasTitle",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "103",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTitle",
+      "undefined" : "Title"
+    },
+    "domain" : "104",
+    "comment" : {
+      "undefined" : "A name given to the digital object."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "18",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVerticalCoordinateSystem",
+      "undefined" : "Vertical Coordinate System"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasLicense",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "70",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLicense",
+      "undefined" : "License"
+    },
+    "domain" : "71",
+    "comment" : {
+      "undefined" : "License associated with the digital object."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "124",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasBoundaryUnitIdentifier",
+      "undefined" : "Boundary Unit Identifier"
+    },
+    "domain" : "123",
+    "comment" : {
+      "undefined" : "The unique identifier for a geospatial boundary unit of a particular type, such as a name or code."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContact",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "hasContact"
+    },
+    "domain" : "126",
+    "attributes" : [ "external", "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "85",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasIdentifier",
+      "undefined" : "Identifier"
+    },
+    "domain" : "80",
+    "comment" : {
+      "undefined" : "The TDIS unique identifier for the digital object."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "101",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDateLastUpdated",
+      "undefined" : "Date Last Updated"
+    },
+    "domain" : "99",
+    "comment" : {
+      "undefined" : "The date the digital object was last updated. Must conform to the ISO 8601 standard."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "21",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCollectionMethod",
+      "undefined" : "Collection Method"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "The procedure, technique, or mode of inquiry used to attain data. Also referred to as \"Data Capture Method\"."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasScale",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "133",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Coverage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasScale",
+      "undefined" : "Scale"
+    },
+    "domain" : "132",
+    "comment" : {
+      "undefined" : "The scale of the dataset "
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasModelType",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "135",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasModelType",
+      "undefined" : "Model Type"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "The type of model."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "hasDistributorOrPublisher"
+    },
+    "domain" : "137",
+    "attributes" : [ "external", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "21",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVerticalDatum",
+      "undefined" : "Vertical Datum"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "A vertical datum is a surface of zero elevation to which heights of various points are referenced. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "97",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDateMetadataUpdated",
+      "undefined" : "Date Metadata Updated"
+    },
+    "domain" : "100",
+    "comment" : {
+      "undefined" : "Date the metadata record was last updated. Must conform to the ISO 8601 standard."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "66",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasKeywordTerm",
+      "undefined" : "Keyword Term"
+    },
+    "domain" : "81",
+    "comment" : {
+      "undefined" : "Subject matter keywords from the vocabulary chosen in Keyword Vocabulary."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "34",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Contact Information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasContactDepartment",
+      "undefined" : "Contact Department"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Dept under the Contact Affiliation"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "88",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDomainValueDescription",
+      "undefined" : "Domain Value Description"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Description of the valid value for the attribute."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "149",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasVerticalAccuracy",
+      "undefined" : "Vertical Accuracy (Meters)"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Numeric value for the accuracy in meters."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "117",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Coverage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTimePeriodCovered",
+      "undefined" : "Time Period Covered"
+    },
+    "domain" : "120",
+    "comment" : {
+      "undefined" : "Time period to which the data refer as a single date-time or an interval. Must conform to the ISO 8601 standard. This reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as the \"span\" covered by the data, this may reflect the dates during which an event occured."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "139",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasProcessingStepDescription",
+      "undefined" : "Processing Step Description"
+    },
+    "domain" : "140",
+    "comment" : {
+      "undefined" : "Description of the processing step performed on a date. A processing step represents a structural change to the data (such as adding fields) and not the addition of data. There can be several processing steps, each of which may have a different date."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "102",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasValueRangeMaximum",
+      "undefined" : "Value Range Maximum"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The maximum value in a range of valid values."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "42",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Administrative",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCollectionIdentifier",
+      "undefined" : "Collection Identifier"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "The TDIS unique identifier for the associated collection."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "40",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCodeSetUrl",
+      "undefined" : "Code Set URL"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "URL for the established code set."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "135",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasModelDimension",
+      "undefined" : "Model Dimension"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "79",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Contact Information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasContactAffiliation",
+      "undefined" : "Contact Affiliation"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Organizational affiliation for the responsible point of contact."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "55",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCodeSetName",
+      "undefined" : "Code Set Name"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The official name of the established code set."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "18",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasFileFormat",
+      "undefined" : "File Format"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The type of content in the digital object, and optionally format. Used when a file or files are uploaded to TDIS."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "33",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Contact Information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasContactEmail",
+      "undefined" : "Contact Email"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Email for the responsible point of contact."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "159",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasBoundaryType",
+      "undefined" : "Boundary Type"
+    },
+    "domain" : "155",
+    "comment" : {
+      "undefined" : "The type of geospatial boundary associated with the digital object. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "35",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Contact Information",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasContactPhoneNumber",
+      "undefined" : "Contact Phone Number"
+    },
+    "domain" : "69",
+    "comment" : {
+      "undefined" : "Work phone number for the responsible point of contact."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "158",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSoftwareName",
+      "undefined" : "Software Name"
+    },
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "The name of the software used to create or work with the digital object."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "41",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCollectionMethodDescription",
+      "undefined" : "Collection Method Description"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Description of the data collection method."
+    },
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "hasServiceEndpointUrl"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "145",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Discovery",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasClassificationTerm",
+      "undefined" : "Classification Term"
+    },
+    "domain" : "146",
+    "comment" : {
+      "undefined" : "TBD"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue",
+    "baseIri" : "http://www.semanticweb.org/owl/owlapi/turtle",
+    "range" : "89",
+    "annotations" : {
+      "hasCategory" : [ {
+        "identifier" : "hasCategory",
+        "language" : "undefined",
+        "value" : "Reuse",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDomainValue",
+      "undefined" : "Domain Value"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Valid value for the attribute."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "169"
+  } ]
+}

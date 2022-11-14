@@ -1,0 +1,911 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/metadata/tdis> .
+
+<https://w3id.org/metadata/tdis> rdf:type owl:Ontology ;
+                                  owl:imports :tdis_boundary_types ,
+                                              :tdis_organizations .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/metadata/tdis#hasCategory
+:hasCategory rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#hasContact
+:hasContact rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :ModelConfiguration
+                                        :Artifact
+                                        :Collection
+                                        :Layer
+                                        :Model
+                                      )
+                        ] .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher
+:hasDistributorOrPublisher rdf:type owl:ObjectProperty ;
+                           rdfs:domain [ rdf:type owl:Class ;
+                                         owl:unionOf ( :ModelConfiguration
+                                                       :Feature
+                                                       :Layer
+                                                       :Model
+                                                     )
+                                       ] ;
+                           rdfs:range [ rdf:type owl:Class ;
+                                        owl:unionOf ( :Distributor
+                                                      :Publisher
+                                                    )
+                                      ] .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint
+:hasServiceEndpoint rdf:type owl:ObjectProperty ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :ModelConfiguration
+                                                :Feature
+                                                :Layer
+                                                :Model
+                                              )
+                                ] ;
+                    rdfs:range :ServiceEndpoint .
+
+
+###  https://w3id.org/metadata/tdis#hasAttributeDomainType
+:hasAttributeDomainType rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Layer ;
+                        rdfs:comment "Domain for values in the attribute (field, variable) within the attribute table." ;
+                        rdfs:label "Attribute Domain Type" ;
+                        :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasBoundaryType
+:hasBoundaryType rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :Artifact
+                                             :Layer
+                                             :Model
+                                           )
+                             ] ;
+                 rdfs:comment "The type of geospatial boundary associated with the digital object. " ;
+                 rdfs:label "Boundary Type" ;
+                 :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasBoundaryUnitIdentifier
+:hasBoundaryUnitIdentifier rdf:type owl:ObjectProperty ;
+                           rdfs:domain [ rdf:type owl:Class ;
+                                         owl:unionOf ( :Artifact
+                                                       :Layer
+                                                       :Model
+                                                     )
+                                       ] ;
+                           rdfs:comment "The unique identifier for a geospatial boundary unit of a particular type, such as a name or code." ;
+                           rdfs:label "Boundary Unit Identifier" ;
+                           :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasClassificationSystem
+:hasClassificationSystem rdf:type owl:ObjectProperty ;
+                         rdfs:domain [ rdf:type owl:Class ;
+                                       owl:unionOf ( :Artifact
+                                                     :Layer
+                                                   )
+                                     ] ;
+                         rdfs:comment "TBD" ;
+                         rdfs:label "Classification System" ;
+                         :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasClassificationTerm
+:hasClassificationTerm rdf:type owl:ObjectProperty ;
+                       rdfs:domain [ rdf:type owl:Class ;
+                                     owl:unionOf ( :Artifact
+                                                   :Layer
+                                                 )
+                                   ] ;
+                       rdfs:comment "TBD" ;
+                       rdfs:label "Classification Term" ;
+                       :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasCollectionMethod
+:hasCollectionMethod rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Feature ;
+                     rdfs:comment "The procedure, technique, or mode of inquiry used to attain data. Also referred to as \"Data Capture Method\"." ;
+                     rdfs:label "Collection Method" ;
+                     :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasContactAffiliation
+:hasContactAffiliation rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Contact ;
+                       rdfs:comment "Organizational affiliation for the responsible point of contact." ;
+                       rdfs:label "Contact Affiliation" ;
+                       :hasCategory "Contact Information" .
+
+
+###  https://w3id.org/metadata/tdis#hasContactRole
+:hasContactRole rdf:type owl:ObjectProperty ;
+                rdfs:domain :Contact ;
+                rdfs:comment "The role(s) of the point of contact toward the digital object and its management." ;
+                rdfs:label "Contact Role" ;
+                :hasCategory "Contact Information" .
+
+
+###  https://w3id.org/metadata/tdis#hasFileFormat
+:hasFileFormat rdf:type owl:ObjectProperty ;
+               rdfs:domain :Layer ;
+               rdfs:comment "The type of content in the digital object, and optionally format. Used when a file or files are uploaded to TDIS." ;
+               rdfs:label "File Format" ;
+               :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasHorizontalAccuracyMethod
+:hasHorizontalAccuracyMethod rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Feature ;
+                             rdfs:comment "Method for determining accuracy of the data." ;
+                             rdfs:label "Horizontal Accuracy Method" ;
+                             :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasHorizontalCoordinateSystem
+:hasHorizontalCoordinateSystem rdf:type owl:ObjectProperty ,
+                                        owl:FunctionalProperty ;
+                               rdfs:domain :Layer ;
+                               rdfs:comment "A projected coordinate system is a planar system that uses two-dimensional coordinates and linear distance measurements as units. A projected coordinate system is based on a geographic coordinate system and a map projection." ;
+                               rdfs:label "Horizontal Coordinate System" ;
+                               :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasHorizontalDatum
+:hasHorizontalDatum rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Layer ;
+                    rdfs:comment "A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface." ;
+                    rdfs:label "Horizontal Datum" ;
+                    :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasKeywordVocabulary
+:hasKeywordVocabulary rdf:type owl:ObjectProperty ,
+                               owl:FunctionalProperty ;
+                      rdfs:domain [ rdf:type owl:Class ;
+                                    owl:unionOf ( :Artifact
+                                                  :Collection
+                                                  :Layer
+                                                  :Model
+                                                )
+                                  ] ;
+                      rdfs:comment "Vocabulary for subject matter keywords listed in Keyword Term." ;
+                      rdfs:label "Keyword Vocabulary" ;
+                      :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasModelDimension
+:hasModelDimension rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Model ;
+                   rdfs:comment "Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations." ;
+                   rdfs:label "Model Dimension" ;
+                   :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasModelType
+:hasModelType rdf:type owl:ObjectProperty ;
+              rdfs:domain :Model ;
+              rdfs:comment "The type of model." ;
+              rdfs:label "Model Type" ;
+              :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasOrganization
+:hasOrganization rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :Distributor
+                                             :Publisher
+                                           )
+                             ] ;
+                 rdfs:range <https://w3id.org/metadata/tdis_organizations#Organization> ;
+                 rdfs:comment "The organization sharing, publishing, or otherwise responsible for providing access to the digital object." ;
+                 rdfs:label "Distributor or Publisher" ;
+                 :hasCategory "Access" .
+
+
+###  https://w3id.org/metadata/tdis#hasScale
+:hasScale rdf:type owl:ObjectProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Collection
+                                      :Layer
+                                      :Model
+                                    )
+                      ] ;
+          rdfs:comment "The scale of the dataset " ;
+          rdfs:label "Scale" ;
+          :hasCategory "Coverage" .
+
+
+###  https://w3id.org/metadata/tdis#hasServiceEndpointType
+:hasServiceEndpointType rdf:type owl:ObjectProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain :ServiceEndpoint ;
+                        rdfs:range :ServiceEndpointType ;
+                        rdfs:comment "The type of service endpoint used for distribution." ;
+                        rdfs:label "Service Endpoint Type" ;
+                        :hasCategory "Access" .
+
+
+###  https://w3id.org/metadata/tdis#hasSoftwareName
+:hasSoftwareName rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :Artifact
+                                             :Layer
+                                             :Model
+                                           )
+                             ] ;
+                 rdfs:comment "The name of the software used to create or work with the digital object." ;
+                 rdfs:label "Software Name" ;
+                 :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasUpdateFrequency
+:hasUpdateFrequency rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Artifact
+                                                :Layer
+                                                :Model
+                                              )
+                                ] ;
+                    rdfs:comment "How often the content is updated." ;
+                    rdfs:label "Update Frequency" ;
+                    :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasUseConstraint
+:hasUseConstraint rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :Artifact
+                                              :Layer
+                                              :Model
+                                            )
+                              ] ;
+                  rdfs:comment "Constraints or restrictions on use of the digital object." ;
+                  rdfs:label "Use Constraint" ;
+                  :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasVerticalAccuracyMethod
+:hasVerticalAccuracyMethod rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Feature ;
+                           rdfs:comment "Method for determining accuracy of the data." ;
+                           rdfs:label "Vertical Accuracy Method" ;
+                           :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasVerticalCoordinateSystem
+:hasVerticalCoordinateSystem rdf:type owl:ObjectProperty ,
+                                      owl:FunctionalProperty ;
+                             rdfs:domain :Layer ;
+                             rdfs:comment "A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights." ;
+                             rdfs:label "Vertical Coordinate System" ;
+                             :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasVerticalDatum
+:hasVerticalDatum rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Feature ;
+                  rdfs:comment "A vertical datum is a surface of zero elevation to which heights of various points are referenced. " ;
+                  rdfs:label "Vertical Datum" ;
+                  :hasCategory "Reuse" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl
+:hasServiceEndpointUrl rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :ServiceEndpoint ;
+                       rdfs:range xsd:anyURI .
+
+
+###  https://w3id.org/metadata/tdis#hasAttributeAccuracy
+:hasAttributeAccuracy rdf:type owl:DatatypeProperty ,
+                               owl:FunctionalProperty ;
+                      rdfs:domain :Layer ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer." ;
+                      rdfs:label "Attribute Accuracy" ;
+                      :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasAttributeDescription
+:hasAttributeDescription rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Layer ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "Description of the attribute (field, variable) within the attribute table for this layer." ;
+                         rdfs:label "Attribute Description" ;
+                         :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasAttributeName
+:hasAttributeName rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Layer ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Name of the attribute (field, variable) within the attribute table for this layer." ;
+                  rdfs:label "Attribute Name" ;
+                  :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasChainOfCustody
+:hasChainOfCustody rdf:type owl:DatatypeProperty ;
+                   rdfs:domain [ rdf:type owl:Class ;
+                                 owl:unionOf ( :ModelConfiguration
+                                               :Collection
+                                               :Feature
+                                               :Layer
+                                               :Model
+                                             )
+                               ] ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object." ;
+                   rdfs:label "Chain of Custody" ;
+                   :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasCodeSetName
+:hasCodeSetName rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Layer ;
+                rdfs:range xsd:string ;
+                rdfs:comment "The official name of the established code set." ;
+                rdfs:label "Code Set Name" ;
+                :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasCodeSetUrl
+:hasCodeSetUrl rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Layer ;
+               rdfs:range xsd:string ;
+               rdfs:comment "URL for the established code set." ;
+               rdfs:label "Code Set URL" ;
+               :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasCollectionIdentifier
+:hasCollectionIdentifier rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain [ rdf:type owl:Class ;
+                                       owl:unionOf ( :Feature
+                                                     :Layer
+                                                     :Model
+                                                   )
+                                     ] ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "The TDIS unique identifier for the associated collection." ;
+                         rdfs:label "Collection Identifier" ;
+                         :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasCollectionMethodDescription
+:hasCollectionMethodDescription rdf:type owl:DatatypeProperty ,
+                                         owl:FunctionalProperty ;
+                                rdfs:domain :Feature ;
+                                rdfs:range xsd:string ;
+                                rdfs:comment "Description of the data collection method." ;
+                                rdfs:label "Collection Method Description" ;
+                                :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasContactDepartment
+:hasContactDepartment rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Contact ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "Dept under the Contact Affiliation" ;
+                      rdfs:label "Contact Department" ;
+                      :hasCategory "Contact Information" .
+
+
+###  https://w3id.org/metadata/tdis#hasContactEmail
+:hasContactEmail rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Contact ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Email for the responsible point of contact." ;
+                 rdfs:label "Contact Email" ;
+                 :hasCategory "Contact Information" .
+
+
+###  https://w3id.org/metadata/tdis#hasContactName
+:hasContactName rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Contact ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Name of a person who is a responsible point of contact." ;
+                rdfs:label "Contact Name" ;
+                :hasCategory "Contact Information" .
+
+
+###  https://w3id.org/metadata/tdis#hasContactPhoneNumber
+:hasContactPhoneNumber rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Contact ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "Work phone number for the responsible point of contact." ;
+                       rdfs:label "Contact Phone Number" ;
+                       :hasCategory "Contact Information" .
+
+
+###  https://w3id.org/metadata/tdis#hasCreationDate
+:hasCreationDate rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( :Artifact
+                                             :Layer
+                                             :Model
+                                           )
+                             ] ;
+                 rdfs:range xsd:date ;
+                 rdfs:comment "Date the digital object was originally created. Must conform to the ISO 8601 standard." ;
+                 rdfs:label "Creation Date" ;
+                 :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasCreator
+:hasCreator rdf:type owl:DatatypeProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Artifact
+                                        :Layer
+                                        :Model
+                                      )
+                        ] ;
+            rdfs:range xsd:string ;
+            rdfs:comment "The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an \"author\" or \"contributor\"." ;
+            rdfs:label "Creator" ;
+            :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasDateLastUpdated
+:hasDateLastUpdated rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :ModelConfiguration
+                                                :Artifact
+                                                :Collection
+                                                :Layer
+                                                :Model
+                                              )
+                                ] ;
+                    rdfs:range xsd:date ;
+                    rdfs:comment "The date the digital object was last updated. Must conform to the ISO 8601 standard." ;
+                    rdfs:label "Date Last Updated" ;
+                    :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasDateMetadataUpdated
+:hasDateMetadataUpdated rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain [ rdf:type owl:Class ;
+                                      owl:unionOf ( :ModelConfiguration
+                                                    :Artifact
+                                                    :Collection
+                                                    :Layer
+                                                    :Model
+                                                  )
+                                    ] ;
+                        rdfs:range xsd:date ;
+                        rdfs:comment "Date the metadata record was last updated. Must conform to the ISO 8601 standard." ;
+                        rdfs:label "Date Metadata Updated" ;
+                        :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasDateSubmitted
+:hasDateSubmitted rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :ModelConfiguration
+                                              :Artifact
+                                              :Collection
+                                              :Layer
+                                              :Model
+                                            )
+                              ] ;
+                  rdfs:range xsd:date ;
+                  rdfs:comment "Date the digital object or metadata record was submitted to TDIS. Must conform to the ISO 8601 standard." ;
+                  rdfs:label "Date Submitted" ;
+                  :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :ModelConfiguration
+                                            :Artifact
+                                            :Collection
+                                            :Feature
+                                            :Layer
+                                            :Model
+                                          )
+                            ] ;
+                rdfs:range xsd:string ;
+                rdfs:comment "An account of the digital object. The description may include an abstract, a table of contents, or a free-text account." ;
+                rdfs:label "Description " ;
+                :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasDistributionMethod
+:hasDistributionMethod rdf:type owl:DatatypeProperty ,
+                                owl:FunctionalProperty ;
+                       rdfs:domain [ rdf:type owl:Class ;
+                                     owl:unionOf ( :Distributor
+                                                   :Publisher
+                                                 )
+                                   ] ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "A statement describing the method of distribution and access provided by the Distributor or Publisher." ;
+                       rdfs:label "Distribution Method" ;
+                       :hasCategory "Access" .
+
+
+###  https://w3id.org/metadata/tdis#hasDistributionUrl
+:hasDistributionUrl rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Distributor
+                                                :Publisher
+                                              )
+                                ] ;
+                    rdfs:range xsd:anyURI ;
+                    rdfs:comment "The URL where the digital object can be accessed via a service endpoint, API, etc." ;
+                    rdfs:label "Distribution URL" ;
+                    :hasCategory "Access" .
+
+
+###  https://w3id.org/metadata/tdis#hasDomainValue
+:hasDomainValue rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Layer ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Valid value for the attribute." ;
+                rdfs:label "Domain Value" ;
+                :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasDomainValueDescription
+:hasDomainValueDescription rdf:type owl:DatatypeProperty ;
+                           rdfs:domain :Layer ;
+                           rdfs:range xsd:string ;
+                           rdfs:comment "Description of the valid value for the attribute." ;
+                           rdfs:label "Domain Value Description" ;
+                           :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasHorizontalAccuracy
+:hasHorizontalAccuracy rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Feature ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "Numeric value for the accuracy in meters." ;
+                       rdfs:label "Horizontal Accuracy (Meters)" ;
+                       :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasIdentifier
+:hasIdentifier rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( :ModelConfiguration
+                                           :Artifact
+                                           :Collection
+                                           :Layer
+                                           :Model
+                                         )
+                           ] ;
+               rdfs:range xsd:string ;
+               rdfs:comment "The TDIS unique identifier for the digital object." ;
+               rdfs:label "Identifier" ;
+               :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasKeywordTerm
+:hasKeywordTerm rdf:type owl:DatatypeProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :ModelConfiguration
+                                            :Artifact
+                                            :Collection
+                                            :Feature
+                                            :Layer
+                                            :Model
+                                          )
+                            ] ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Subject matter keywords from the vocabulary chosen in Keyword Vocabulary." ;
+                rdfs:label "Keyword Term" ;
+                :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasLicense
+:hasLicense rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Artifact
+                                        :Collection
+                                        :Model
+                                      )
+                        ] ;
+            rdfs:range xsd:string ;
+            rdfs:comment "License associated with the digital object." ;
+            rdfs:label "License" ;
+            :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasPlacenameOrLocality
+:hasPlacenameOrLocality rdf:type owl:DatatypeProperty ;
+                        rdfs:domain [ rdf:type owl:Class ;
+                                      owl:unionOf ( :Artifact
+                                                    :Layer
+                                                    :Model
+                                                  )
+                                    ] ;
+                        rdfs:range xsd:string ;
+                        rdfs:comment "Placename from GeoNames (http://www.geonames.org)." ;
+                        rdfs:label "Placename or Locality" ;
+                        :hasCategory "Coverage" .
+
+
+###  https://w3id.org/metadata/tdis#hasProcessingStepDate
+:hasProcessingStepDate rdf:type owl:DatatypeProperty ;
+                       rdfs:domain [ rdf:type owl:Class ;
+                                     owl:unionOf ( :Artifact
+                                                   :Layer
+                                                 )
+                                   ] ;
+                       rdfs:range xsd:date ;
+                       rdfs:comment "The date when a particular processing step was completed. Must conform to the ISO 8601 standard." ;
+                       rdfs:label "Processing Step Date" ;
+                       :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasProcessingStepDescription
+:hasProcessingStepDescription rdf:type owl:DatatypeProperty ;
+                              rdfs:domain [ rdf:type owl:Class ;
+                                            owl:unionOf ( :Artifact
+                                                          :Layer
+                                                        )
+                                          ] ;
+                              rdfs:range xsd:string ;
+                              rdfs:comment "Description of the processing step performed on a date. A processing step represents a structural change to the data (such as adding fields) and not the addition of data. There can be several processing steps, each of which may have a different date." ;
+                              rdfs:label "Processing Step Description" ;
+                              :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasProcessingStepSource
+:hasProcessingStepSource rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty ;
+                         rdfs:domain [ rdf:type owl:Class ;
+                                       owl:unionOf ( :Artifact
+                                                     :Layer
+                                                   )
+                                     ] ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "The name of a person or organization who performed the modifications described in the associated Processing Step Description." ;
+                         rdfs:label "Processing Step Source" ;
+                         :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasPurpose
+:hasPurpose rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :ModelConfiguration
+                                        :Artifact
+                                        :Collection
+                                        :Layer
+                                        :Model
+                                      )
+                        ] ;
+            rdfs:range xsd:string ;
+            rdfs:comment "A description of the purpose for the creation of this digital object and/or the expected use." ;
+            rdfs:label "Purpose" ;
+            :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasSoftwareVersion
+:hasSoftwareVersion rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Artifact
+                                                :Layer
+                                                :Model
+                                              )
+                                ] ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "The version of the software used to create or work with the digital object." ;
+                    rdfs:label "Software Version" ;
+                    :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasSpatialExtent
+:hasSpatialExtent rdf:type owl:DatatypeProperty ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :ModelConfiguration
+                                              :Artifact
+                                              :Collection
+                                              :Feature
+                                              :Layer
+                                              :Model
+                                            )
+                              ] ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees." ;
+                  rdfs:label "Spatial Extent (Decimal Degrees)" ;
+                  :hasCategory "Coverage" .
+
+
+###  https://w3id.org/metadata/tdis#hasTimePeriodCovered
+:hasTimePeriodCovered rdf:type owl:DatatypeProperty ;
+                      rdfs:domain [ rdf:type owl:Class ;
+                                    owl:unionOf ( :Artifact
+                                                  :Layer
+                                                  :Model
+                                                )
+                                  ] ;
+                      rdfs:range xsd:date ;
+                      rdfs:comment "Time period to which the data refer as a single date-time or an interval. Must conform to the ISO 8601 standard. This reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as the \"span\" covered by the data, this may reflect the dates during which an event occured." ;
+                      rdfs:label "Time Period Covered" ;
+                      :hasCategory "Coverage" .
+
+
+###  https://w3id.org/metadata/tdis#hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :Artifact
+                                      :Collection
+                                      :Layer
+                                      :Model
+                                    )
+                      ] ;
+          rdfs:range xsd:string ;
+          rdfs:comment "A name given to the digital object." ;
+          rdfs:label "Title" ;
+          :hasCategory "Discovery" .
+
+
+###  https://w3id.org/metadata/tdis#hasValueRangeMaximum
+:hasValueRangeMaximum rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Layer ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "The maximum value in a range of valid values." ;
+                      rdfs:label "Value Range Maximum" ;
+                      :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasValueRangeMinimum
+:hasValueRangeMinimum rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Layer ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "The minimumum value in a range of valid values." ;
+                      rdfs:label "Value Range Minimum" ;
+                      :hasCategory "Reuse" .
+
+
+###  https://w3id.org/metadata/tdis#hasVersion
+:hasVersion rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Artifact
+                                        :Model
+                                      )
+                        ] ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Version number of the digital object." ;
+            rdfs:label "Version" ;
+            :hasCategory "Administrative" .
+
+
+###  https://w3id.org/metadata/tdis#hasVerticalAccuracy
+:hasVerticalAccuracy rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Feature ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "Numeric value for the accuracy in meters." ;
+                     rdfs:label "Vertical Accuracy (Meters)" ;
+                     :hasCategory "Reuse" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Contact
+:Contact rdf:type owl:Class ;
+         rdfs:comment "Point of Contact for any item in the Collection" .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Distributor
+:Distributor rdf:type owl:Class ;
+             rdfs:comment "Distributor of a digital object" .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration
+:ModelConfiguration rdf:type owl:Class ;
+                    rdfs:comment "Model configurations represent a unique way of running a model, exposing concrete inputs, outputs, and parameters. These metadata are under active development" .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Publisher
+:Publisher rdf:type owl:Class ;
+           rdfs:comment "Publisher of a digital object" .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint
+:ServiceEndpoint rdf:type owl:Class ;
+                 rdfs:comment "The service endpoint for a digital object" .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType
+:ServiceEndpointType rdf:type owl:Class ;
+                     rdfs:comment "Endpoint Type : REST or SOAP" .
+
+
+###  https://w3id.org/metadata/tdis#Artifact
+:Artifact rdf:type owl:Class ;
+          rdfs:comment "Artifacts represent digital objects such as text and images within documents, data within spreadsheets, or other data made available via service endpoints. Artifacts do not contain geometry information (points, lines, or polygons) or images with spatial information." .
+
+
+###  https://w3id.org/metadata/tdis#Collection
+:Collection rdf:type owl:Class ;
+            rdfs:comment "Collections group one or more layers, artifacts and/or models together. For example, a complex geospatial database object would be represented as a collection containing multiple data layers" .
+
+
+###  https://w3id.org/metadata/tdis#Feature
+:Feature rdf:type owl:Class ;
+         rdfs:comment "Features, as a part of a data layer, are a record-by-record description of each independent “row” in a geospatial attribute table or database." .
+
+
+###  https://w3id.org/metadata/tdis#Layer
+:Layer rdf:type owl:Class ;
+       rdfs:comment "Data layers represent digital objects with intrinsic spatial characteristics and include (but are not limited to) streets, city boundaries, river gages, and imagery with geospatial information contained within files or made available via service endpoints" .
+
+
+###  https://w3id.org/metadata/tdis#Model
+:Model rdf:type owl:Class ;
+       rdfs:comment "Models represent model software packages and configurations, which may be associated with input and/or output artifacts or data layers" .
+
+
+###  https://w3id.org/metadata/tdis_organizations#Organization
+<https://w3id.org/metadata/tdis_organizations#Organization> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#REST
+:REST rdf:type owl:NamedIndividual ,
+               :ServiceEndpointType ;
+      rdfs:comment "Representational State Transfer" .
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#SOAP
+:SOAP rdf:type owl:NamedIndividual ,
+               :ServiceEndpointType ;
+      rdfs:comment "Simple Object Access Protocol" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

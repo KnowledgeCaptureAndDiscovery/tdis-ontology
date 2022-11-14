@@ -1,0 +1,462 @@
+@prefix : <https://w3id.org/metadata/tdis_boundary_types#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/metadata/tdis_boundary_types> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#label
+
+rdf:label a owl:AnnotationProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/metadata/tdis_boundary_type#identifiedBy
+
+<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> a owl:ObjectProperty ;
+	rdfs:domain <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	rdfs:range <https://w3id.org/metadata/tdis_boundary_type#Plan> .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#hasDistributor
+
+:hasDistributor a owl:ObjectProperty ;
+	rdfs:domain <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	rdfs:range :Distributor .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier
+
+<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> a owl:DatatypeProperty ;
+	rdfs:domain <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	rdfs:range xsd:string .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#hasUrl
+
+<https://w3id.org/metadata/tdis_boundary_type#hasUrl> a owl:DatatypeProperty ;
+	rdfs:domain <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	rdfs:range xsd:string .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/metadata/tdis_boundary_type#BoundaryType
+
+<https://w3id.org/metadata/tdis_boundary_type#BoundaryType> a owl:Class .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Plan
+
+<https://w3id.org/metadata/tdis_boundary_type#Plan> a owl:Class .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Distributor
+
+:Distributor a owl:Class .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Aquifier
+
+<https://w3id.org/metadata/tdis_boundary_type#Aquifier> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "Aquifier" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan
+
+<https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#Plan> ;
+	rdf:label "CDR Data Management Plan: Data Survey and System Design. Survey of Data for Response, Recovery and Mitigation." .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Common_Land_Unit
+
+<https://w3id.org/metadata/tdis_boundary_type#Common_Land_Unit> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	:hasDistributor :USDA_Farm_Services_Agency ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "Common Land Unit (CLU)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Congressional_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Congressional_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Department_of_Transportation , :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "District Number (20,21,22...)" ;
+	rdf:label "Congressional District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Council_of_Governments
+
+<https://w3id.org/metadata/tdis_boundary_type#Council_of_Governments> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#Data_Collection_Plan__West_Region> ;
+	:hasDistributor :Texas_Department_of_Transportation , :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "COG Name" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://gis-txdot.opendata.arcgis.com/datasets/texas-councils-of-governments" ;
+	rdf:label "Council of Governments (CoG)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#County
+
+<https://w3id.org/metadata/tdis_boundary_type#County> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#Data_Collection_Plan__West_Region> ;
+	:hasDistributor :Texas_Department_of_Transportation ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "FIPS code" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://gis-txdot.opendata.arcgis.com/datasets/texas-county-boundaries-detailed" ;
+	rdf:label "County" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Data_Collection_Plan__West_Region
+
+<https://w3id.org/metadata/tdis_boundary_type#Data_Collection_Plan__West_Region> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#Plan> ;
+	rdf:label "Data Collection Plan (West Region): Flood Studies-Combined River Basins (Version 1.0 2020); CDR Data Management Plan: Data Survey and System Design. Survey of Data for Response, Recovery and Mitigation." .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Drainage_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Drainage_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Named districts within each county" ;
+	rdf:label "Drainage District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Ecoregion
+
+<https://w3id.org/metadata/tdis_boundary_type#Ecoregion> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "Ecoregion" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Extraterritorial_Jurisdiction
+
+<https://w3id.org/metadata/tdis_boundary_type#Extraterritorial_Jurisdiction> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#Data_Collection_Plan__West_Region> ;
+	:hasDistributor :City_Government ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Largest Nearby City Name" ;
+	rdf:label "Extraterritorial Jurisdiction (ETJ)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Federal_Emegency_Management_Agency_Region
+
+<https://w3id.org/metadata/tdis_boundary_type#Federal_Emegency_Management_Agency_Region> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Federal_Emergency_Management_Agency , :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Regions 1-10" ;
+	rdf:label "Federal Emegency Management Agency (FEMA) Region" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#General_Land_Office_Flood_Study_Region
+
+<https://w3id.org/metadata/tdis_boundary_type#General_Land_Office_Flood_Study_Region> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	:hasDistributor :General_Land_Office ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Region Identifier: \"East\",\"Central\",\"West\",\"Lower Rio Grande Valley\"" ;
+	rdf:label "General Land Office Flood Study Region" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Glacial_Lake_Outburst_Floods_Plan
+
+<https://w3id.org/metadata/tdis_boundary_type#Glacial_Lake_Outburst_Floods_Plan> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#Plan> ;
+	rdf:label "https://glofs.maps.arcgis.com/apps/webappviewer/index.html?id=04aa496a5f9f42eaafc8c199eaf5649f" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Groundwater_Conservation_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Groundwater_Conservation_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Water_Development_Board ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "GWPA Code" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "http://www.twdb.texas.gov/mapping/gisdata.asp" ;
+	rdf:label "Groundwater Conservation District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#House_District
+
+<https://w3id.org/metadata/tdis_boundary_type#House_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Department_of_Transportation , :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "District Number (20,21,22...)" ;
+	rdf:label "House District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Land_Parcel
+
+<https://w3id.org/metadata/tdis_boundary_type#Land_Parcel> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Parcel Number (i.e. - R0046435)" ;
+	rdf:label "Land Parcel" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Municipal_Utility_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Municipal_Utility_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	rdf:label "Municipal Utility District (MUD)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Municipality_City_limit_Corporate_limit
+
+<https://w3id.org/metadata/tdis_boundary_type#Municipality_City_limit_Corporate_limit> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#Data_Collection_Plan__West_Region> ;
+	:hasDistributor :Texas_Department_of_Transportation , :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Municipality or City Name" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://services.arcgis.com/KTcxiTD9dsQw4r7Z/arcgis/rest/services/TxDOT_City_Boundaries/FeatureServer" ;
+	rdf:label "Municipality/City limit/Corporate limit" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#National_Watershed_Boundary_Hydrologic_Unit
+
+<https://w3id.org/metadata/tdis_boundary_type#National_Watershed_Boundary_Hydrologic_Unit> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	:hasDistributor :National_Geospatial_Program , :United_States_Geological_Service ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Hydrologic Unit Code (HUC)" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://www.usgs.gov/core-science-systems/ngp/national-hydrography/access-national-hydrography-products" ;
+	rdf:label "National Watershed Boundary Hydrologic Unit (HU)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#River_or_Coastal_Basin
+
+<https://w3id.org/metadata/tdis_boundary_type#River_or_Coastal_Basin> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "River or Coastal Basin" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Senate_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Senate_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "District Number (20,21,22...)" ;
+	rdf:label "Senate District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#State_Agency_Regional_Boundaries
+
+<https://w3id.org/metadata/tdis_boundary_type#State_Agency_Regional_Boundaries> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Emergency_GIS_Response_Team , :Texas_Natural_Resources_Information_System ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Region Number or Name" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://data.tnris.org/collection/aa29e3f4-ee98-40f1-972a-25bb76c21d77" ;
+	rdf:label "State Agency Regional Boundaries" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#State_Boundary
+
+<https://w3id.org/metadata/tdis_boundary_type#State_Boundary> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "FIPS code" ;
+	rdf:label "State Boundary" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan
+
+<https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#Plan> ;
+	rdf:label "State of Texas Hazard Mitigation Plan" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Subdivision
+
+<https://w3id.org/metadata/tdis_boundary_type#Subdivision> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Subdivision Number (601, 602...)" ;
+	rdf:label "Subdivision" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_Department_of_Public_Safety_Disaster_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_Department_of_Public_Safety_Disaster_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "DCC 1-24 accompanied by name of largest nearby city." ;
+	rdf:label "Texas Department of Public Safety (DPS) Disaster District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_Department_of_Public_Safety_Region
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_Department_of_Public_Safety_Region> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	:hasDistributor :Texas_Department_of_Public_Safety ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "Texas Department of Public Safety (DPS) Region" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_Education_Service_Center_Region
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_Education_Service_Center_Region> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	:hasDistributor :Texas_Education_Agency ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Region Identifier: 1–20" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://tea.texas.gov/about-tea/other-services/education-service-centers" ;
+	rdf:label "Texas Education Service Center (ESC) Region" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_Flood_Planning_Region
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_Flood_Planning_Region> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Water_Development_Board ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Region Identifier: 01–14" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://www.twdb.texas.gov/flood/planning/regions/index.asp" ;
+	rdf:label "Texas Flood Planning Region" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_Metropolitan_Planning_Organization
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_Metropolitan_Planning_Organization> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Metro Names (Austin MPO, Dallas-Fort Worth MPO)" ;
+	rdf:label "Texas Metropolitan Planning Organization" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_Regional_Water_Planning_Groups
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_Regional_Water_Planning_Groups> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#Glacial_Lake_Outburst_Floods_Plan> ;
+	:hasDistributor :Texas_Water_Development_Board ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Region Identifier: A–P" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "https://www.twdb.texas.gov/waterplanning/rwp/regions/index.asp" ;
+	rdf:label "Texas Regional Water Planning Groups" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_River_Authority_Statutory_Boundary
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_River_Authority_Statutory_Boundary> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	:hasDistributor :Texas_Water_Development_Board ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "River Authority Name" ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUrl> "http://www.twdb.texas.gov/mapping/gisdata.asp" ;
+	rdf:label "Texas River Authority Statutory Boundary" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_State_Board_of_Education_District
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_State_Board_of_Education_District> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "Texas State Board of Education District" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Texas_State_Park
+
+<https://w3id.org/metadata/tdis_boundary_type#Texas_State_Park> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Parks_and_Wildlife ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "State Park Name" ;
+	rdf:label "Texas State Park" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#TxDOT_Urbanized_Area
+
+<https://w3id.org/metadata/tdis_boundary_type#TxDOT_Urbanized_Area> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :Texas_Department_of_Transportation ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Austin" ;
+	rdf:label "TxDOT Urbanized Area" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#US_Census_Block
+
+<https://w3id.org/metadata/tdis_boundary_type#US_Census_Block> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Block Number" ;
+	rdf:label "US Census Block" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#US_Census_Block_Group
+
+<https://w3id.org/metadata/tdis_boundary_type#US_Census_Block_Group> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Block Group Number" ;
+	rdf:label "US Census Block Group" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#US_Census_Tract
+
+<https://w3id.org/metadata/tdis_boundary_type#US_Census_Tract> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Tract Number" ;
+	rdf:label "US Census Tract" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#US_Postal_Zip_Code
+
+<https://w3id.org/metadata/tdis_boundary_type#US_Postal_Zip_Code> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Zip code (78601...)" ;
+	rdf:label "US Postal Zip Code" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Watershed
+
+<https://w3id.org/metadata/tdis_boundary_type#Watershed> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#State_of_Texas_Hazard_Mitigation_Plan> ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "TBD" ;
+	rdf:label "Watershed" .
+# 
+# https://w3id.org/metadata/tdis_boundary_type#Zoning
+
+<https://w3id.org/metadata/tdis_boundary_type#Zoning> a owl:NamedIndividual , <https://w3id.org/metadata/tdis_boundary_type#BoundaryType> ;
+	<https://w3id.org/metadata/tdis_boundary_type#identifiedBy> <https://w3id.org/metadata/tdis_boundary_type#CDR_Data_Management_Plan> ;
+	:hasDistributor :City_Government ;
+	<https://w3id.org/metadata/tdis_boundary_type#hasUnitIdentifier> "Zong codes  (AG, C-1, MF-2...)" ;
+	rdf:label "Zoning" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#City_Government
+
+:City_Government a owl:NamedIndividual , :Distributor ;
+	rdfs:label "City Government" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Federal_Emergency_Management_Agency
+
+:Federal_Emergency_Management_Agency a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Federal Emergency Management Agency (FEMA)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#General_Land_Office
+
+:General_Land_Office a owl:NamedIndividual , :Distributor ;
+	rdfs:label "General Land Office (GLO)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#National_Geospatial_Program
+
+:National_Geospatial_Program a owl:NamedIndividual , :Distributor ;
+	rdfs:label "National Geospatial Program (NGP)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Department_of_Public_Safety
+
+:Texas_Department_of_Public_Safety a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Department of Public Safety" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Department_of_Transportation
+
+:Texas_Department_of_Transportation a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Department of Transportation (TXDOT)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Education_Agency
+
+:Texas_Education_Agency a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Education Agency (TEA)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Emergency_GIS_Response_Team
+
+:Texas_Emergency_GIS_Response_Team a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Emergency GIS Response Team" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Natural_Resources_Information_System
+
+:Texas_Natural_Resources_Information_System a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Natural Resources Information System (TNRIS)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Parks_and_Wildlife
+
+:Texas_Parks_and_Wildlife a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Parks and Wildlife" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#Texas_Water_Development_Board
+
+:Texas_Water_Development_Board a owl:NamedIndividual , :Distributor ;
+	rdfs:label "Texas Water Development Board (TWDB)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#USDA_Farm_Services_Agency
+
+:USDA_Farm_Services_Agency a owl:NamedIndividual , :Distributor ;
+	rdfs:label "USDA Farm Services Agency (FSA)" .
+# 
+# https://w3id.org/metadata/tdis_boundary_types#United_States_Geological_Service
+
+:United_States_Geological_Service a owl:NamedIndividual , :Distributor ;
+	rdfs:label "United States Geological Service (USGS)" .
+# 
+# Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

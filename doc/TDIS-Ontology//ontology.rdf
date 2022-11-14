@@ -1,0 +1,1406 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/metadata/tdis#"
+     xml:base="https://w3id.org/metadata/tdis"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:turtle="http://www.semanticweb.org/owl/owlapi/turtle#">
+    <owl:Ontology rdf:about="https://w3id.org/metadata/tdis">
+        <owl:imports rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#tdis_boundary_types"/>
+        <owl:imports rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#tdis_organizations"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCategory -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCategory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Domain for values in the attribute (field, variable) within the attribute table.</rdfs:comment>
+        <rdfs:label>Attribute Domain Type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The type of geospatial boundary associated with the digital object. </rdfs:comment>
+        <rdfs:label>Boundary Type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The unique identifier for a geospatial boundary unit of a particular type, such as a name or code.</rdfs:comment>
+        <rdfs:label>Boundary Unit Identifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>TBD</rdfs:comment>
+        <rdfs:label>Classification System</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>TBD</rdfs:comment>
+        <rdfs:label>Classification Term</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>The procedure, technique, or mode of inquiry used to attain data. Also referred to as &quot;Data Capture Method&quot;.</rdfs:comment>
+        <rdfs:label>Collection Method</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContact -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContact">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Contact"/>
+        <turtle:hasCategory>Contact Information</turtle:hasCategory>
+        <rdfs:comment>Organizational affiliation for the responsible point of contact.</rdfs:comment>
+        <rdfs:label>Contact Affiliation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Contact"/>
+        <turtle:hasCategory>Contact Information</turtle:hasCategory>
+        <rdfs:comment>The role(s) of the point of contact toward the digital object and its management.</rdfs:comment>
+        <rdfs:label>Contact Role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Distributor"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Publisher"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The type of content in the digital object, and optionally format. Used when a file or files are uploaded to TDIS.</rdfs:comment>
+        <rdfs:label>File Format</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Method for determining accuracy of the data.</rdfs:comment>
+        <rdfs:label>Horizontal Accuracy Method</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>A projected coordinate system is a planar system that uses two-dimensional coordinates and linear distance measurements as units. A projected coordinate system is based on a geographic coordinate system and a map projection.</rdfs:comment>
+        <rdfs:label>Horizontal Coordinate System</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth&apos;s surface.</rdfs:comment>
+        <rdfs:label>Horizontal Datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>Vocabulary for subject matter keywords listed in Keyword Term.</rdfs:comment>
+        <rdfs:label>Keyword Vocabulary</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations.</rdfs:comment>
+        <rdfs:label>Model Dimension</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasModelType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasModelType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The type of model.</rdfs:comment>
+        <rdfs:label>Model Type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Distributor"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Publisher"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/metadata/tdis_organizations#Organization"/>
+        <turtle:hasCategory>Access</turtle:hasCategory>
+        <rdfs:comment>The organization sharing, publishing, or otherwise responsible for providing access to the digital object.</rdfs:comment>
+        <rdfs:label>Distributor or Publisher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasScale -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasScale">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Coverage</turtle:hasCategory>
+        <rdfs:comment>The scale of the dataset </rdfs:comment>
+        <rdfs:label>Scale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"/>
+        <turtle:hasCategory>Access</turtle:hasCategory>
+        <rdfs:comment>The type of service endpoint used for distribution.</rdfs:comment>
+        <rdfs:label>Service Endpoint Type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The name of the software used to create or work with the digital object.</rdfs:comment>
+        <rdfs:label>Software Name</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>How often the content is updated.</rdfs:comment>
+        <rdfs:label>Update Frequency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>Constraints or restrictions on use of the digital object.</rdfs:comment>
+        <rdfs:label>Use Constraint</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Method for determining accuracy of the data.</rdfs:comment>
+        <rdfs:label>Vertical Accuracy Method</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.</rdfs:comment>
+        <rdfs:label>Vertical Coordinate System</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>A vertical datum is a surface of zero elevation to which heights of various points are referenced. </rdfs:comment>
+        <rdfs:label>Vertical Datum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.</rdfs:comment>
+        <rdfs:label>Attribute Accuracy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Description of the attribute (field, variable) within the attribute table for this layer.</rdfs:comment>
+        <rdfs:label>Attribute Description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Name of the attribute (field, variable) within the attribute table for this layer.</rdfs:comment>
+        <rdfs:label>Attribute Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object.</rdfs:comment>
+        <rdfs:label>Chain of Custody</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>The official name of the established code set.</rdfs:comment>
+        <rdfs:label>Code Set Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>URL for the established code set.</rdfs:comment>
+        <rdfs:label>Code Set URL</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>The TDIS unique identifier for the associated collection.</rdfs:comment>
+        <rdfs:label>Collection Identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Description of the data collection method.</rdfs:comment>
+        <rdfs:label>Collection Method Description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Contact Information</turtle:hasCategory>
+        <rdfs:comment>Dept under the Contact Affiliation</rdfs:comment>
+        <rdfs:label>Contact Department</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Contact Information</turtle:hasCategory>
+        <rdfs:comment>Email for the responsible point of contact.</rdfs:comment>
+        <rdfs:label>Contact Email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Contact Information</turtle:hasCategory>
+        <rdfs:comment>Name of a person who is a responsible point of contact.</rdfs:comment>
+        <rdfs:label>Contact Name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Contact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Contact Information</turtle:hasCategory>
+        <rdfs:comment>Work phone number for the responsible point of contact.</rdfs:comment>
+        <rdfs:label>Contact Phone Number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>Date the digital object was originally created. Must conform to the ISO 8601 standard.</rdfs:comment>
+        <rdfs:label>Creation Date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCreator -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCreator">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an &quot;author&quot; or &quot;contributor&quot;.</rdfs:comment>
+        <rdfs:label>Creator</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>The date the digital object was last updated. Must conform to the ISO 8601 standard.</rdfs:comment>
+        <rdfs:label>Date Last Updated</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>Date the metadata record was last updated. Must conform to the ISO 8601 standard.</rdfs:comment>
+        <rdfs:label>Date Metadata Updated</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>Date the digital object or metadata record was submitted to TDIS. Must conform to the ISO 8601 standard.</rdfs:comment>
+        <rdfs:label>Date Submitted</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDescription">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>An account of the digital object. The description may include an abstract, a table of contents, or a free-text account.</rdfs:comment>
+        <rdfs:label>Description </rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Distributor"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Publisher"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Access</turtle:hasCategory>
+        <rdfs:comment>A statement describing the method of distribution and access provided by the Distributor or Publisher.</rdfs:comment>
+        <rdfs:label>Distribution Method</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Distributor"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Publisher"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <turtle:hasCategory>Access</turtle:hasCategory>
+        <rdfs:comment>The URL where the digital object can be accessed via a service endpoint, API, etc.</rdfs:comment>
+        <rdfs:label>Distribution URL</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Valid value for the attribute.</rdfs:comment>
+        <rdfs:label>Domain Value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Description of the valid value for the attribute.</rdfs:comment>
+        <rdfs:label>Domain Value Description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Numeric value for the accuracy in meters.</rdfs:comment>
+        <rdfs:label>Horizontal Accuracy (Meters)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>The TDIS unique identifier for the digital object.</rdfs:comment>
+        <rdfs:label>Identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>Subject matter keywords from the vocabulary chosen in Keyword Vocabulary.</rdfs:comment>
+        <rdfs:label>Keyword Term</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasLicense -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasLicense">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>License associated with the digital object.</rdfs:comment>
+        <rdfs:label>License</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Coverage</turtle:hasCategory>
+        <rdfs:comment>Placename from GeoNames (http://www.geonames.org).</rdfs:comment>
+        <rdfs:label>Placename or Locality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>The date when a particular processing step was completed. Must conform to the ISO 8601 standard.</rdfs:comment>
+        <rdfs:label>Processing Step Date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Description of the processing step performed on a date. A processing step represents a structural change to the data (such as adding fields) and not the addition of data. There can be several processing steps, each of which may have a different date.</rdfs:comment>
+        <rdfs:label>Processing Step Description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>The name of a person or organization who performed the modifications described in the associated Processing Step Description.</rdfs:comment>
+        <rdfs:label>Processing Step Source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>A description of the purpose for the creation of this digital object and/or the expected use.</rdfs:comment>
+        <rdfs:label>Purpose</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>The version of the software used to create or work with the digital object.</rdfs:comment>
+        <rdfs:label>Software Version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Coverage</turtle:hasCategory>
+        <rdfs:comment>Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.</rdfs:comment>
+        <rdfs:label>Spatial Extent (Decimal Degrees)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <turtle:hasCategory>Coverage</turtle:hasCategory>
+        <rdfs:comment>Time period to which the data refer as a single date-time or an interval. Must conform to the ISO 8601 standard. This reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as the &quot;span&quot; covered by the data, this may reflect the dates during which an event occured.</rdfs:comment>
+        <rdfs:label>Time Period Covered</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasTitle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Discovery</turtle:hasCategory>
+        <rdfs:comment>A name given to the digital object.</rdfs:comment>
+        <rdfs:label>Title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>The maximum value in a range of valid values.</rdfs:comment>
+        <rdfs:label>Value Range Maximum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Layer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>The minimumum value in a range of valid values.</rdfs:comment>
+        <rdfs:label>Value Range Minimum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasVersion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Administrative</turtle:hasCategory>
+        <rdfs:comment>Version number of the digital object.</rdfs:comment>
+        <rdfs:label>Version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <turtle:hasCategory>Reuse</turtle:hasCategory>
+        <rdfs:comment>Numeric value for the accuracy in meters.</rdfs:comment>
+        <rdfs:label>Vertical Accuracy (Meters)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Artifact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">
+        <rdfs:comment>Artifacts represent digital objects such as text and images within documents, data within spreadsheets, or other data made available via service endpoints. Artifacts do not contain geometry information (points, lines, or polygons) or images with spatial information.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Collection -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Collection">
+        <rdfs:comment>Collections group one or more layers, artifacts and/or models together. For example, a complex geospatial database object would be represented as a collection containing multiple data layers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Contact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Contact">
+        <rdfs:comment>Point of Contact for any item in the Collection</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Distributor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">
+        <rdfs:comment>Distributor of a digital object</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Feature -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Feature">
+        <rdfs:comment>Features, as a part of a data layer, are a record-by-record description of each independent “row” in a geospatial attribute table or database.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Layer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Layer">
+        <rdfs:comment>Data layers represent digital objects with intrinsic spatial characteristics and include (but are not limited to) streets, city boundaries, river gages, and imagery with geospatial information contained within files or made available via service endpoints</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Model -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Model">
+        <rdfs:comment>Models represent model software packages and configurations, which may be associated with input and/or output artifacts or data layers</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">
+        <rdfs:comment>Model configurations represent a unique way of running a model, exposing concrete inputs, outputs, and parameters. These metadata are under active development</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#Publisher -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">
+        <rdfs:comment>Publisher of a digital object</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint">
+        <rdfs:comment>The service endpoint for a digital object</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType">
+        <rdfs:comment>Endpoint Type : REST or SOAP</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/metadata/tdis_organizations#Organization -->
+
+
+    <owl:Class rdf:about="https://w3id.org/metadata/tdis_organizations#Organization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#REST -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#REST">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"/>
+        <rdfs:comment>Representational State Transfer</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/owl/owlapi/turtle#SOAP -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#SOAP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"/>
+        <rdfs:comment>Simple Object Access Protocol</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

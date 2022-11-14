@@ -1,0 +1,1681 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid143",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid158",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+    }, {
+      "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Artifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Artifacts represent digital objects such as text and images within documents, data within spreadsheets, or other data made available via service endpoints. Artifacts do not contain geometry information (points, lines, or polygons) or images with spatial information."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Collection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collections group one or more layers, artifacts and/or models together. For example, a complex geospatial database object would be represented as a collection containing multiple data layers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Point of Contact for any item in the Collection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Distributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Distributor of a digital object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Features, as a part of a data layer, are a record-by-record description of each independent “row” in a geospatial attribute table or database."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data layers represent digital objects with intrinsic spatial characteristics and include (but are not limited to) streets, city boundaries, river gages, and imagery with geospatial information contained within files or made available via service endpoints"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Models represent model software packages and configurations, which may be associated with input and/or output artifacts or data layers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Model configurations represent a unique way of running a model, exposing concrete inputs, outputs, and parameters. These metadata are under active development"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Publisher of a digital object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#REST",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Representational State Transfer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#SOAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Simple Object Access Protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The service endpoint for a digital object"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Endpoint Type : REST or SOAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attribute Accuracy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Description of the attribute (field, variable) within the attribute table for this layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attribute Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Domain for values in the attribute (field, variable) within the attribute table."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attribute Domain Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name of the attribute (field, variable) within the attribute table for this layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attribute Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The type of geospatial boundary associated with the digital object. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boundary Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The unique identifier for a geospatial boundary unit of a particular type, such as a name or code."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boundary Unit Identifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid58"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Chain of Custody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "TBD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Classification System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "TBD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Classification Term"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The official name of the established code set."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Code Set Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "URL for the established code set."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Code Set URL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The TDIS unique identifier for the associated collection."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Collection Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The procedure, technique, or mode of inquiry used to attain data. Also referred to as \"Data Capture Method\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Collection Method"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Description of the data collection method."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Collection Method Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Contact Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Organizational affiliation for the responsible point of contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contact Affiliation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Contact Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dept under the Contact Affiliation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contact Department"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Contact Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Email for the responsible point of contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contact Email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Contact Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Name of a person who is a responsible point of contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contact Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Contact Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Work phone number for the responsible point of contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contact Phone Number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Contact Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The role(s) of the point of contact toward the digital object and its management."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Contact Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Date the digital object was originally created. Must conform to the ISO 8601 standard."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid68"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Creation Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an \"author\" or \"contributor\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid72"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date the digital object was last updated. Must conform to the ISO 8601 standard."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid76"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date Last Updated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Date the metadata record was last updated. Must conform to the ISO 8601 standard."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid82"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date Metadata Updated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Date the digital object or metadata record was submitted to TDIS. Must conform to the ISO 8601 standard."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid88"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date Submitted"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An account of the digital object. The description may include an abstract, a table of contents, or a free-text account."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid94"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Description "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Access"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A statement describing the method of distribution and access provided by the Distributor or Publisher."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid101"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Distribution Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Access"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The URL where the digital object can be accessed via a service endpoint, API, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid104"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Distribution URL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Valid value for the attribute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Domain Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Description of the valid value for the attribute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Domain Value Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The type of content in the digital object, and optionally format. Used when a file or files are uploaded to TDIS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "File Format"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Numeric value for the accuracy in meters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Horizontal Accuracy (Meters)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Method for determining accuracy of the data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Horizontal Accuracy Method"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A projected coordinate system is a planar system that uses two-dimensional coordinates and linear distance measurements as units. A projected coordinate system is based on a geographic coordinate system and a map projection."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Horizontal Coordinate System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Horizontal Datum"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The TDIS unique identifier for the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid107"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subject matter keywords from the vocabulary chosen in Keyword Vocabulary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid113"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Keyword Term"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Vocabulary for subject matter keywords listed in Keyword Term."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Keyword Vocabulary"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasLicense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "License associated with the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid120"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "License"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Model Dimension"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasModelType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The type of model."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Model Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Access"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The organization sharing, publishing, or otherwise responsible for providing access to the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Distributor or Publisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/metadata/tdis_organizations#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Coverage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Placename from GeoNames (http://www.geonames.org)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid124"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Placename or Locality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date when a particular processing step was completed. Must conform to the ISO 8601 standard."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid128"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Processing Step Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Description of the processing step performed on a date. A processing step represents a structural change to the data (such as adding fields) and not the addition of data. There can be several processing steps, each of which may have a different date."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid131"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Processing Step Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of a person or organization who performed the modifications described in the associated Processing Step Description."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid134"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Processing Step Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A description of the purpose for the creation of this digital object and/or the expected use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid137"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasScale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Coverage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The scale of the dataset "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Scale"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid41"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Access"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The type of service endpoint used for distribution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Service Endpoint Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The name of the software used to create or work with the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid46"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Software Name"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The version of the software used to create or work with the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid143"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Software Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Coverage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid147"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Spatial Extent (Decimal Degrees)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Coverage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Time period to which the data refer as a single date-time or an interval. Must conform to the ISO 8601 standard. This reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as the \"span\" covered by the data, this may reflect the dates during which an event occured."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid154"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time Period Covered"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Discovery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A name given to the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid158"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "How often the content is updated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid50"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Update Frequency"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Constraints or restrictions on use of the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid54"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Use Constraint"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The maximum value in a range of valid values."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Value Range Maximum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The minimumum value in a range of valid values."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Value Range Minimum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Version number of the digital object."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid163"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Numeric value for the accuracy in meters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vertical Accuracy (Meters)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Method for determining accuracy of the data."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vertical Accuracy Method"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vertical Coordinate System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.semanticweb.org/owl/owlapi/turtle#hasCategory" : [ {
+    "@value" : "Reuse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A vertical datum is a surface of zero elevation to which heights of various points are referenced. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vertical Datum"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://w3id.org/metadata/tdis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#tdis_boundary_types"
+  }, {
+    "@id" : "http://www.semanticweb.org/owl/owlapi/turtle#tdis_organizations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/metadata/tdis_organizations#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

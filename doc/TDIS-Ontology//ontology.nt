@@ -1,0 +1,1105 @@
+<https://w3id.org/metadata/tdis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/metadata/tdis> <http://www.w3.org/2002/07/owl#imports> <http://www.semanticweb.org/owl/owlapi/turtle#tdis_boundary_types> .
+<https://w3id.org/metadata/tdis> <http://www.w3.org/2002/07/owl#imports> <http://www.semanticweb.org/owl/owlapi/turtle#tdis_organizations> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCategory
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType> <http://www.w3.org/2000/01/rdf-schema#comment> "Domain for values in the attribute (field, variable) within the attribute table." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute Domain Type" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of geospatial boundary associated with the digital object. " .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary Type" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#unionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier for a geospatial boundary unit of a particular type, such as a name or code." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Boundary Unit Identifier" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#unionOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Classification System" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm> <http://www.w3.org/2000/01/rdf-schema#label> "Classification Term" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "The procedure, technique, or mode of inquiry used to attain data. Also referred to as \"Data Capture Method\"." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Collection Method" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContact
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContact> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#unionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Contact> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Contact Information" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Organizational affiliation for the responsible point of contact." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Affiliation" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Contact> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Contact Information" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole> <http://www.w3.org/2000/01/rdf-schema#comment> "The role(s) of the point of contact toward the digital object and its management." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Role" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#unionOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher> <http://www.w3.org/2000/01/rdf-schema#range> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#unionOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Publisher> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Distributor> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat
+<http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of content in the digital object, and optionally format. Used when a file or files are uploaded to TDIS." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#label> "File Format" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Method for determining accuracy of the data." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Horizontal Accuracy Method" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "A projected coordinate system is a planar system that uses two-dimensional coordinates and linear distance measurements as units. A projected coordinate system is based on a geographic coordinate system and a map projection." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Horizontal Coordinate System" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Horizontal Datum" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#unionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for subject matter keywords listed in Keyword Term." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Keyword Vocabulary" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Model Dimension" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasModelType
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelType> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of model." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasModelType> <http://www.w3.org/2000/01/rdf-schema#label> "Model Type" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#unionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Publisher> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Distributor> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/metadata/tdis_organizations#Organization> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Access" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "The organization sharing, publishing, or otherwise responsible for providing access to the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Distributor or Publisher" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasScale
+<http://www.semanticweb.org/owl/owlapi/turtle#hasScale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasScale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasScale> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#unionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasScale> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Coverage" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasScale> <http://www.w3.org/2000/01/rdf-schema#comment> "The scale of the dataset " .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasScale> <http://www.w3.org/2000/01/rdf-schema#label> "Scale" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#unionOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Access" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of service endpoint used for distribution." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType> <http://www.w3.org/2000/01/rdf-schema#label> "Service Endpoint Type" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#unionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the software used to create or work with the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName> <http://www.w3.org/2000/01/rdf-schema#label> "Software Name" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#unionOf> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "How often the content is updated." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "Update Frequency" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#unionOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Constraints or restrictions on use of the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Use Constraint" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Method for determining accuracy of the data." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical Accuracy Method" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical Coordinate System" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "A vertical datum is a surface of zero elevation to which heights of various points are referenced. " .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical Datum" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.w3.org/2000/01/rdf-schema#comment> "A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute Accuracy" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the attribute (field, variable) within the attribute table for this layer." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute Description" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the attribute (field, variable) within the attribute table for this layer." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute Name" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody
+<http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#unionOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody> <http://www.w3.org/2000/01/rdf-schema#comment> "A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody> <http://www.w3.org/2000/01/rdf-schema#label> "Chain of Custody" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName> <http://www.w3.org/2000/01/rdf-schema#comment> "The official name of the established code set." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName> <http://www.w3.org/2000/01/rdf-schema#label> "Code Set Name" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL for the established code set." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Code Set URL" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#unionOf> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The TDIS unique identifier for the associated collection." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Collection Identifier" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the data collection method." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Collection Method Description" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Contact> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Contact Information" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment> <http://www.w3.org/2000/01/rdf-schema#comment> "Dept under the Contact Affiliation" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Department" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Contact> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Contact Information" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#comment> "Email for the responsible point of contact." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Email" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContactName
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Contact> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactName> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Contact Information" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of a person who is a responsible point of contact." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactName> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Name" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Contact> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Contact Information" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Work phone number for the responsible point of contact." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Phone Number" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#unionOf> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the digital object was originally created. Must conform to the ISO 8601 standard." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#label> "Creation Date" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasCreator
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreator> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#unionOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreator> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an \"author\" or \"contributor\"." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "Creator" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#unionOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the digital object was last updated. Must conform to the ISO 8601 standard." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated> <http://www.w3.org/2000/01/rdf-schema#label> "Date Last Updated" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#unionOf> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the metadata record was last updated. Must conform to the ISO 8601 standard." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated> <http://www.w3.org/2000/01/rdf-schema#label> "Date Metadata Updated" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#unionOf> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the digital object or metadata record was submitted to TDIS. Must conform to the ISO 8601 standard." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted> <http://www.w3.org/2000/01/rdf-schema#label> "Date Submitted" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDescription
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#unionOf> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "An account of the digital object. The description may include an abstract, a table of contents, or a free-text account." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Description " .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#unionOf> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Publisher> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Distributor> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Access" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "A statement describing the method of distribution and access provided by the Distributor or Publisher." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution Method" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#unionOf> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Publisher> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Distributor> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Access" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "The URL where the digital object can be accessed via a service endpoint, API, etc." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution URL" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Valid value for the attribute." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue> <http://www.w3.org/2000/01/rdf-schema#label> "Domain Value" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the valid value for the attribute." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Domain Value Description" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy> <http://www.w3.org/2000/01/rdf-schema#comment> "Numeric value for the accuracy in meters." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy> <http://www.w3.org/2000/01/rdf-schema#label> "Horizontal Accuracy (Meters)" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#unionOf> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The TDIS unique identifier for the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#unionOf> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "Subject matter keywords from the vocabulary chosen in Keyword Vocabulary." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm> <http://www.w3.org/2000/01/rdf-schema#label> "Keyword Term" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasLicense
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid120 .
+_:genid120 <http://www.w3.org/2002/07/owl#unionOf> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.w3.org/2000/01/rdf-schema#comment> "License associated with the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasLicense> <http://www.w3.org/2000/01/rdf-schema#label> "License" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid124 .
+_:genid124 <http://www.w3.org/2002/07/owl#unionOf> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Coverage" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality> <http://www.w3.org/2000/01/rdf-schema#comment> "Placename from GeoNames (http://www.geonames.org)." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality> <http://www.w3.org/2000/01/rdf-schema#label> "Placename or Locality" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid128 .
+_:genid128 <http://www.w3.org/2002/07/owl#unionOf> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when a particular processing step was completed. Must conform to the ISO 8601 standard." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Step Date" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid131 .
+_:genid131 <http://www.w3.org/2002/07/owl#unionOf> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the processing step performed on a date. A processing step represents a structural change to the data (such as adding fields) and not the addition of data. There can be several processing steps, each of which may have a different date." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Step Description" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid134 .
+_:genid134 <http://www.w3.org/2002/07/owl#unionOf> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a person or organization who performed the modifications described in the associated Processing Step Description." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource> <http://www.w3.org/2000/01/rdf-schema#label> "Processing Step Source" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid137 .
+_:genid137 <http://www.w3.org/2002/07/owl#unionOf> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the purpose for the creation of this digital object and/or the expected use." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#label> "Purpose" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid143 .
+_:genid143 <http://www.w3.org/2002/07/owl#unionOf> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The version of the software used to create or work with the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Software Version" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid147 .
+_:genid147 <http://www.w3.org/2002/07/owl#unionOf> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Coverage" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent> <http://www.w3.org/2000/01/rdf-schema#comment> "Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Extent (Decimal Degrees)" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid154 .
+_:genid154 <http://www.w3.org/2002/07/owl#unionOf> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Coverage" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered> <http://www.w3.org/2000/01/rdf-schema#comment> "Time period to which the data refer as a single date-time or an interval. Must conform to the ISO 8601 standard. This reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as the \"span\" covered by the data, this may reflect the dates during which an event occured." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered> <http://www.w3.org/2000/01/rdf-schema#label> "Time Period Covered" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasTitle
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid158 .
+_:genid158 <http://www.w3.org/2002/07/owl#unionOf> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160 .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Collection> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Discovery" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "A name given to the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasTitle> <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum> <http://www.w3.org/2000/01/rdf-schema#comment> "The maximum value in a range of valid values." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum> <http://www.w3.org/2000/01/rdf-schema#label> "Value Range Maximum" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Layer> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum> <http://www.w3.org/2000/01/rdf-schema#comment> "The minimumum value in a range of valid values." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum> <http://www.w3.org/2000/01/rdf-schema#label> "Value Range Minimum" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasVersion
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid163 .
+_:genid163 <http://www.w3.org/2002/07/owl#unionOf> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid164 .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Model> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/owl/owlapi/turtle#Artifact> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Administrative" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version number of the digital object." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Version" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/owl/owlapi/turtle#Feature> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy> <http://www.semanticweb.org/owl/owlapi/turtle#hasCategory> "Reuse" .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy> <http://www.w3.org/2000/01/rdf-schema#comment> "Numeric value for the accuracy in meters." .
+<http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical Accuracy (Meters)" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Artifact
+<http://www.semanticweb.org/owl/owlapi/turtle#Artifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Artifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Artifacts represent digital objects such as text and images within documents, data within spreadsheets, or other data made available via service endpoints. Artifacts do not contain geometry information (points, lines, or polygons) or images with spatial information." .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Collection
+<http://www.semanticweb.org/owl/owlapi/turtle#Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "Collections group one or more layers, artifacts and/or models together. For example, a complex geospatial database object would be represented as a collection containing multiple data layers" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Contact
+<http://www.semanticweb.org/owl/owlapi/turtle#Contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Contact> <http://www.w3.org/2000/01/rdf-schema#comment> "Point of Contact for any item in the Collection" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Distributor
+<http://www.semanticweb.org/owl/owlapi/turtle#Distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Distributor> <http://www.w3.org/2000/01/rdf-schema#comment> "Distributor of a digital object" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Feature
+<http://www.semanticweb.org/owl/owlapi/turtle#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "Features, as a part of a data layer, are a record-by-record description of each independent “row” in a geospatial attribute table or database." .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Layer
+<http://www.semanticweb.org/owl/owlapi/turtle#Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Layer> <http://www.w3.org/2000/01/rdf-schema#comment> "Data layers represent digital objects with intrinsic spatial characteristics and include (but are not limited to) streets, city boundaries, river gages, and imagery with geospatial information contained within files or made available via service endpoints" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Model
+<http://www.semanticweb.org/owl/owlapi/turtle#Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Model> <http://www.w3.org/2000/01/rdf-schema#comment> "Models represent model software packages and configurations, which may be associated with input and/or output artifacts or data layers" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration
+<http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Model configurations represent a unique way of running a model, exposing concrete inputs, outputs, and parameters. These metadata are under active development" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#Publisher
+<http://www.semanticweb.org/owl/owlapi/turtle#Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#Publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Publisher of a digital object" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint
+<http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The service endpoint for a digital object" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType
+<http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType> <http://www.w3.org/2000/01/rdf-schema#comment> "Endpoint Type : REST or SOAP" .
+# 
+# https://w3id.org/metadata/tdis_organizations#Organization
+<https://w3id.org/metadata/tdis_organizations#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#REST
+<http://www.semanticweb.org/owl/owlapi/turtle#REST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/owl/owlapi/turtle#REST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType> .
+<http://www.semanticweb.org/owl/owlapi/turtle#REST> <http://www.w3.org/2000/01/rdf-schema#comment> "Representational State Transfer" .
+# 
+# http://www.semanticweb.org/owl/owlapi/turtle#SOAP
+<http://www.semanticweb.org/owl/owlapi/turtle#SOAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/owl/owlapi/turtle#SOAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType> .
+<http://www.semanticweb.org/owl/owlapi/turtle#SOAP> <http://www.w3.org/2000/01/rdf-schema#comment> "Simple Object Access Protocol" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,2753 @@
+<h2 id="crossreference" class="list">Cross-reference for [Ontology Name] classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">
+            <span>artifact</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">
+            <span>collection</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">
+            <span>contact</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">
+            <span>distributor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">
+            <span>feature</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">
+            <span>layer</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Model">
+            <span>model</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">
+            <span>model configuration</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">
+            <span>publisher</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint">
+            <span>service endpoint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType">
+            <span>service endpoint type</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">
+      <h3>artifact<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Artifact</p>
+      <div class="comment">
+         <span class="markdown">Artifacts represent digital objects such as text and images within documents, data within spreadsheets, or other data made available via service endpoints. Artifacts do not contain geometry information (points, lines, or polygons) or images with spatial information.</span>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Collection">
+      <h3>collection<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Collection</p>
+      <div class="comment">
+         <span class="markdown">Collections group one or more layers, artifacts and/or models together. For example, a complex geospatial database object would be represented as a collection containing multiple data layers</span>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Contact">
+      <h3>contact<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Contact</p>
+      <div class="comment">
+         <span class="markdown">Point of Contact for any item in the Collection</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation">Contact Affiliation</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment">Contact Department</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail">Contact Email</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactName"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactName">Contact Name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber">Contact Phone Number</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole">Contact Role</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">
+      <h3>distributor<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Distributor</p>
+      <div class="comment">
+         <span class="markdown">Distributor of a digital object</span>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Feature">
+      <h3>feature<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Feature</p>
+      <div class="comment">
+         <span class="markdown">Features, as a part of a data layer, are a record-by-record description of each independent “row” in a geospatial attribute table or database.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod">Collection Method</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription">Collection Method Description</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy">Horizontal Accuracy (Meters)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod">Horizontal Accuracy Method</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy">Vertical Accuracy (Meters)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod">Vertical Accuracy Method</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum">Vertical Datum</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Layer">
+      <h3>layer<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Layer</p>
+      <div class="comment">
+         <span class="markdown">Data layers represent digital objects with intrinsic spatial characteristics and include (but are not limited to) streets, city boundaries, river gages, and imagery with geospatial information contained within files or made available via service endpoints</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy">Attribute Accuracy</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription">Attribute Description</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType">Attribute Domain Type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName">Attribute Name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName">Code Set Name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl">Code Set URL</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue">Domain Value</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription">Domain Value Description</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat">File Format</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem">Horizontal Coordinate System</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum">Horizontal Datum</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum">Value Range Maximum</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum">Value Range Minimum</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem">Vertical Coordinate System</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Model">
+      <h3>model<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Model</p>
+      <div class="comment">
+         <span class="markdown">Models represent model software packages and configurations, which may be associated with input and/or output artifacts or data layers</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension">Model Dimension</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasModelType"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasModelType">Model Type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">
+      <h3>model configuration<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration</p>
+      <div class="comment">
+         <span class="markdown">Model configurations represent a unique way of running a model, exposing concrete inputs, outputs, and parameters. These metadata are under active development</span>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">
+      <h3>publisher<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#Publisher</p>
+      <div class="comment">
+         <span class="markdown">Publisher of a digital object</span>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint">
+      <h3>service endpoint<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint</p>
+      <div class="comment">
+         <span class="markdown">The service endpoint for a digital object</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType">Service Endpoint Type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl">has service endpoint url</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint">has service endpoint</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType">
+      <h3>service endpoint type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType</p>
+      <div class="comment">
+         <span class="markdown">Endpoint Type : REST or SOAP</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType">Service Endpoint Type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#REST"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#REST">r e s t</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#http://www.semanticweb.org/owl/owlapi/turtle#SOAP"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#SOAP">s o a p</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType">Attribute Domain Type</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType">Boundary Type</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier">Boundary Unit Identifier</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem">Classification System</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm">Classification Term</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod">Collection Method</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation">Contact Affiliation</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole">Contact Role</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization">Distributor or Publisher</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat">File Format</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContact"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContact">
+            <span>has contact</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher">
+            <span>has distributor or publisher</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint">
+            <span>has service endpoint</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod">Horizontal Accuracy Method</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem">Horizontal Coordinate System</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum">Horizontal Datum</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary">Keyword Vocabulary</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension">Model Dimension</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasModelType"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasModelType">Model Type</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasScale"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasScale">Scale</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType">Service Endpoint Type</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName">Software Name</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency">Update Frequency</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint">Use Constraint</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod">Vertical Accuracy Method</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem">Vertical Coordinate System</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum">Vertical Datum</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType">
+      <h3>Attribute Domain Type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDomainType</p>
+      <div class="comment">
+         <span class="markdown">Domain for values in the attribute (field, variable) within the attribute table.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType">
+      <h3>Boundary Type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryType</p>
+      <div class="comment">
+         <span class="markdown">The type of geospatial boundary associated with the digital object. </span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier">
+      <h3>Boundary Unit Identifier<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasBoundaryUnitIdentifier</p>
+      <div class="comment">
+         <span class="markdown">The unique identifier for a geospatial boundary unit of a particular type, such as a name or code.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem">
+      <h3>Classification System<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationSystem</p>
+      <div class="comment">
+         <span class="markdown">TBD</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm">
+      <h3>Classification Term<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasClassificationTerm</p>
+      <div class="comment">
+         <span class="markdown">TBD</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod">
+      <h3>Collection Method<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethod</p>
+      <div class="comment">
+         <span class="markdown">The procedure, technique, or mode of inquiry used to attain data. Also referred to as "Data Capture Method".</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation">
+      <h3>Contact Affiliation<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContactAffiliation</p>
+      <div class="comment">
+         <span class="markdown">Organizational affiliation for the responsible point of contact.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">contact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole">
+      <h3>Contact Role<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContactRole</p>
+      <div class="comment">
+         <span class="markdown">The role(s) of the point of contact toward the digital object and its management.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">contact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization">
+      <h3>Distributor or Publisher<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasOrganization</p>
+      <div class="comment">
+         <span class="markdown">The organization sharing, publishing, or otherwise responsible for providing access to the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">distributor</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">publisher</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="https://w3id.org/metadata/tdis_organizations#Organization"
+                  target="_blank"
+                  title="https://w3id.org/metadata/tdis_organizations#Organization">organization</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat">
+      <h3>File Format<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasFileFormat</p>
+      <div class="comment">
+         <span class="markdown">The type of content in the digital object, and optionally format. Used when a file or files are uploaded to TDIS.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContact">
+      <h3>has contact<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContact</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher">
+      <h3>has distributor or publisher<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDistributorOrPublisher</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">distributor</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">publisher</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint">
+      <h3>has service endpoint<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpoint</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint">service endpoint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod">
+      <h3>Horizontal Accuracy Method<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracyMethod</p>
+      <div class="comment">
+         <span class="markdown">Method for determining accuracy of the data.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem">
+      <h3>Horizontal Coordinate System<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalCoordinateSystem</p>
+      <div class="comment">
+         <span class="markdown">A projected coordinate system is a planar system that uses two-dimensional coordinates and linear distance measurements as units. A projected coordinate system is based on a geographic coordinate system and a map projection.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum">
+      <h3>Horizontal Datum<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalDatum</p>
+      <div class="comment">
+         <span class="markdown">A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary">
+      <h3>Keyword Vocabulary<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordVocabulary</p>
+      <div class="comment">
+         <span class="markdown">Vocabulary for subject matter keywords listed in Keyword Term.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension">
+      <h3>Model Dimension<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasModelDimension</p>
+      <div class="comment">
+         <span class="markdown">Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasModelType">
+      <h3>Model Type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasModelType</p>
+      <div class="comment">
+         <span class="markdown">The type of model.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasScale">
+      <h3>Scale<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasScale</p>
+      <div class="comment">
+         <span class="markdown">The scale of the dataset </span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType">
+      <h3>Service Endpoint Type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointType</p>
+      <div class="comment">
+         <span class="markdown">The type of service endpoint used for distribution.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint">service endpoint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType">service endpoint type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName">
+      <h3>Software Name<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareName</p>
+      <div class="comment">
+         <span class="markdown">The name of the software used to create or work with the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency">
+      <h3>Update Frequency<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasUpdateFrequency</p>
+      <div class="comment">
+         <span class="markdown">How often the content is updated.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint">
+      <h3>Use Constraint<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasUseConstraint</p>
+      <div class="comment">
+         <span class="markdown">Constraints or restrictions on use of the digital object.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod">
+      <h3>Vertical Accuracy Method<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracyMethod</p>
+      <div class="comment">
+         <span class="markdown">Method for determining accuracy of the data.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem">
+      <h3>Vertical Coordinate System<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalCoordinateSystem</p>
+      <div class="comment">
+         <span class="markdown">A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum">
+      <h3>Vertical Datum<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalDatum</p>
+      <div class="comment">
+         <span class="markdown">A vertical datum is a surface of zero elevation to which heights of various points are referenced. </span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy">Attribute Accuracy</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription">Attribute Description</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName">Attribute Name</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody">Chain of Custody</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName">Code Set Name</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl">Code Set URL</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier">Collection Identifier</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription">Collection Method Description</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment">Contact Department</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail">Contact Email</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactName"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactName">Contact Name</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber">Contact Phone Number</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate">Creation Date</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasCreator"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasCreator">Creator</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated">Date Last Updated</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated">Date Metadata Updated</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted">Date Submitted</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDescription"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDescription">Description </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod">Distribution Method</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl">Distribution URL</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue">Domain Value</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription">Domain Value Description</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl">
+            <span>has service endpoint url</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy">Horizontal Accuracy (Meters)</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier">Identifier</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm">Keyword Term</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasLicense"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasLicense">License</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality">Placename or Locality</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate">Processing Step Date</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription">Processing Step Description</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource">Processing Step Source</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose">Purpose</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion">Software Version</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent">Spatial Extent (Decimal Degrees)</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered">Time Period Covered</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasTitle"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasTitle">Title</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum">Value Range Maximum</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum">Value Range Minimum</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVersion"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasVersion">Version</a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy">Vertical Accuracy (Meters)</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy">
+      <h3>Attribute Accuracy<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeAccuracy</p>
+      <div class="comment">
+         <span class="markdown">A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription">
+      <h3>Attribute Description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeDescription</p>
+      <div class="comment">
+         <span class="markdown">Description of the attribute (field, variable) within the attribute table for this layer.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName">
+      <h3>Attribute Name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasAttributeName</p>
+      <div class="comment">
+         <span class="markdown">Name of the attribute (field, variable) within the attribute table for this layer.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody">
+      <h3>Chain of Custody<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasChainOfCustody</p>
+      <div class="comment">
+         <span class="markdown">A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName">
+      <h3>Code Set Name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetName</p>
+      <div class="comment">
+         <span class="markdown">The official name of the established code set.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl">
+      <h3>Code Set URL<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCodeSetUrl</p>
+      <div class="comment">
+         <span class="markdown">URL for the established code set.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier">
+      <h3>Collection Identifier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionIdentifier</p>
+      <div class="comment">
+         <span class="markdown">The TDIS unique identifier for the associated collection.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription">
+      <h3>Collection Method Description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCollectionMethodDescription</p>
+      <div class="comment">
+         <span class="markdown">Description of the data collection method.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment">
+      <h3>Contact Department<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContactDepartment</p>
+      <div class="comment">
+         <span class="markdown">Dept under the Contact Affiliation</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">contact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail">
+      <h3>Contact Email<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContactEmail</p>
+      <div class="comment">
+         <span class="markdown">Email for the responsible point of contact.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">contact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContactName">
+      <h3>Contact Name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContactName</p>
+      <div class="comment">
+         <span class="markdown">Name of a person who is a responsible point of contact.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">contact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber">
+      <h3>Contact Phone Number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasContactPhoneNumber</p>
+      <div class="comment">
+         <span class="markdown">Work phone number for the responsible point of contact.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Contact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Contact">contact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate">
+      <h3>Creation Date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCreationDate</p>
+      <div class="comment">
+         <span class="markdown">Date the digital object was originally created. Must conform to the ISO 8601 standard.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#date"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#date">date</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasCreator">
+      <h3>Creator<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasCreator</p>
+      <div class="comment">
+         <span class="markdown">The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an "author" or "contributor".</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated">
+      <h3>Date Last Updated<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDateLastUpdated</p>
+      <div class="comment">
+         <span class="markdown">The date the digital object was last updated. Must conform to the ISO 8601 standard.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#date"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#date">date</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated">
+      <h3>Date Metadata Updated<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDateMetadataUpdated</p>
+      <div class="comment">
+         <span class="markdown">Date the metadata record was last updated. Must conform to the ISO 8601 standard.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#date"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#date">date</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted">
+      <h3>Date Submitted<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDateSubmitted</p>
+      <div class="comment">
+         <span class="markdown">Date the digital object or metadata record was submitted to TDIS. Must conform to the ISO 8601 standard.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#date"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#date">date</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDescription">
+      <h3>Description <sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDescription</p>
+      <div class="comment">
+         <span class="markdown">An account of the digital object. The description may include an abstract, a table of contents, or a free-text account.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod">
+      <h3>Distribution Method<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionMethod</p>
+      <div class="comment">
+         <span class="markdown">A statement describing the method of distribution and access provided by the Distributor or Publisher.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">distributor</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">publisher</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl">
+      <h3>Distribution URL<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDistributionUrl</p>
+      <div class="comment">
+         <span class="markdown">The URL where the digital object can be accessed via a service endpoint, API, etc.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Distributor"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Distributor">distributor</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Publisher"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Publisher">publisher</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#anyURI"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue">
+      <h3>Domain Value<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValue</p>
+      <div class="comment">
+         <span class="markdown">Valid value for the attribute.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription">
+      <h3>Domain Value Description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasDomainValueDescription</p>
+      <div class="comment">
+         <span class="markdown">Description of the valid value for the attribute.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl">
+      <h3>has service endpoint url<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasServiceEndpointUrl</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpoint">service endpoint</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#anyURI"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy">
+      <h3>Horizontal Accuracy (Meters)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasHorizontalAccuracy</p>
+      <div class="comment">
+         <span class="markdown">Numeric value for the accuracy in meters.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier">
+      <h3>Identifier<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasIdentifier</p>
+      <div class="comment">
+         <span class="markdown">The TDIS unique identifier for the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm">
+      <h3>Keyword Term<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasKeywordTerm</p>
+      <div class="comment">
+         <span class="markdown">Subject matter keywords from the vocabulary chosen in Keyword Vocabulary.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasLicense">
+      <h3>License<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasLicense</p>
+      <div class="comment">
+         <span class="markdown">License associated with the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality">
+      <h3>Placename or Locality<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasPlacenameOrLocality</p>
+      <div class="comment">
+         <span class="markdown">Placename from GeoNames (http://www.geonames.org).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate">
+      <h3>Processing Step Date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDate</p>
+      <div class="comment">
+         <span class="markdown">The date when a particular processing step was completed. Must conform to the ISO 8601 standard.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#date"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#date">date</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription">
+      <h3>Processing Step Description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepDescription</p>
+      <div class="comment">
+         <span class="markdown">Description of the processing step performed on a date. A processing step represents a structural change to the data (such as adding fields) and not the addition of data. There can be several processing steps, each of which may have a different date.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource">
+      <h3>Processing Step Source<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasProcessingStepSource</p>
+      <div class="comment">
+         <span class="markdown">The name of a person or organization who performed the modifications described in the associated Processing Step Description.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose">
+      <h3>Purpose<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasPurpose</p>
+      <div class="comment">
+         <span class="markdown">A description of the purpose for the creation of this digital object and/or the expected use.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion">
+      <h3>Software Version<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasSoftwareVersion</p>
+      <div class="comment">
+         <span class="markdown">The version of the software used to create or work with the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent">
+      <h3>Spatial Extent (Decimal Degrees)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasSpatialExtent</p>
+      <div class="comment">
+         <span class="markdown">Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#ModelConfiguration">model configuration</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered">
+      <h3>Time Period Covered<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasTimePeriodCovered</p>
+      <div class="comment">
+         <span class="markdown">Time period to which the data refer as a single date-time or an interval. Must conform to the ISO 8601 standard. This reflects the time period covered by the data, not the dates of coding or making documents machine-readable or the dates the data were collected. Also known as the "span" covered by the data, this may reflect the dates during which an event occured.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#date"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#date">date</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasTitle">
+      <h3>Title<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasTitle</p>
+      <div class="comment">
+         <span class="markdown">A name given to the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Collection"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Collection">collection</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum">
+      <h3>Value Range Maximum<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMaximum</p>
+      <div class="comment">
+         <span class="markdown">The maximum value in a range of valid values.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum">
+      <h3>Value Range Minimum<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasValueRangeMinimum</p>
+      <div class="comment">
+         <span class="markdown">The minimumum value in a range of valid values.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Layer"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Layer">layer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasVersion">
+      <h3>Version<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasVersion</p>
+      <div class="comment">
+         <span class="markdown">Version number of the digital object.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Artifact"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Artifact">artifact</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Model"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Model">model</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy">
+      <h3>Vertical Accuracy (Meters)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#hasVerticalAccuracy</p>
+      <div class="comment">
+         <span class="markdown">Numeric value for the accuracy in meters.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.semanticweb.org/owl/owlapi/turtle#Feature"
+                  title="http://www.semanticweb.org/owl/owlapi/turtle#Feature">feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#REST"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#REST">
+            <span>r e s t</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://www.semanticweb.org/owl/owlapi/turtle#SOAP"
+            title="http://www.semanticweb.org/owl/owlapi/turtle#SOAP">
+            <span>s o a p</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#REST">
+      <h3>r e s t<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#REST</p>
+      <div class="comment">
+         <span class="markdown">Representational State Transfer</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType">service endpoint type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.semanticweb.org/owl/owlapi/turtle#SOAP">
+      <h3>s o a p<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/owl/owlapi/turtle#SOAP</p>
+      <div class="comment">
+         <span class="markdown">Simple Object Access Protocol</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType"
+               title="http://www.semanticweb.org/owl/owlapi/turtle#ServiceEndpointType">service endpoint type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
