@@ -1,0 +1,452 @@
+@prefix : <https://w3id.org/metadata/tdis_software#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/metadata/tdis_software> .
+
+<https://w3id.org/metadata/tdis_software> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/metadata/tdis_software#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/metadata/tdis_software#hasDistributionUrl
+:hasDistributionUrl rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/metadata/tdis_software#hasDistributor
+:hasDistributor rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/metadata/tdis_software#hasLicense
+:hasLicense rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/metadata/tdis_boundary_type#Software
+<https://w3id.org/metadata/tdis_boundary_type#Software> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/metadata/tdis_software#ADCIRC
+:ADCIRC rdf:type owl:NamedIndividual ,
+                 <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+        :hasDescription "ADCIRC is a system of computer programs for solving time dependent, free surface circulation and transport problems in two and three dimensions. These programs utilize the finite element method in space allowing the use of highly flexible, unstructured grids." ;
+        :hasDistributionUrl "https://adcirc.org" ;
+        :hasDistributor "University of North Carolina" ;
+        :hasLicense "Public" ;
+        rdfs:comment "ADvanced CIRCulation Model" ;
+        rdfs:label "ADCIRC" .
+
+
+###  https://w3id.org/metadata/tdis_software#Delft3D
+:Delft3D rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "3D modeling suite to investigate hydrodynamics, sediment transport and morphology and water quality for fluvial, estuarine and coastal environments. As per 1 January 2011, the Delft3D flow (FLOW), morphology (MOR) and waves (WAVE) modules are available in open source." ;
+         :hasDistributionUrl "https://oss.deltares.nl/web/delft3d" ;
+         :hasDistributor "Deltares" ;
+         :hasLicense "Proprietary" ;
+         rdfs:comment "Delft3D" ;
+         rdfs:label "Delft3D" .
+
+
+###  https://w3id.org/metadata/tdis_software#EPANET
+:EPANET rdf:type owl:NamedIndividual ,
+                 <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+        :hasDescription "TBD" ;
+        :hasDistributionUrl "TBD" ;
+        :hasDistributor "TBD" ;
+        :hasLicense "TBD" ;
+        rdfs:comment "TBD" ;
+        rdfs:label "EPANET" .
+
+
+###  https://w3id.org/metadata/tdis_software#FEMA_BCA
+:FEMA_BCA rdf:type owl:NamedIndividual ,
+                   <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+          :hasDescription "FEMA’s BCA toolkit is an excel add-on that allows for more standardized Benefit Cost Analysis to be done for a project. The net-present value of benefits and costs are calculated across the project’s useful life. It can be used for a variety of hazards and includes three methods of estimation depending on the user's available data." ;
+          :hasDistributionUrl "https://www.fema.gov/grants/guidance-tools/benefit-cost-analysis " ;
+          :hasDistributor "Federal Emergency Management Agency" ;
+          :hasLicense "Public" ;
+          rdfs:comment "FEMA Benefit Cost Analysis Toolkit " ;
+          rdfs:label "FEMA BCA" .
+
+
+###  https://w3id.org/metadata/tdis_software#FEMA_Hazus
+:FEMA_Hazus rdf:type owl:NamedIndividual ,
+                     <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+            :hasDescription "FEMA’s Hazus Program provides standardized tools and data for estimating risk from earthquakes, floods, tsunamis, and hurricanes. Hazus is a nationally standardized risk modeling methodology. It is distributed as free GIS-based desktop software with a collection of inventory databases for every U.S. state and territory. Hazus identifies areas with high risk for natural hazards and estimates physical, economic, and social impacts of earthquakes, hurricanes, floods, and tsunamis." ;
+            :hasDistributionUrl "https://www.fema.gov/flood-maps/products-tools/hazus" ;
+            :hasDistributor "Federal Emergency Management Agency" ;
+            :hasLicense "Public" ;
+            rdfs:comment "FEMA Hazus" ;
+            rdfs:label "FEMA Hazus" .
+
+
+###  https://w3id.org/metadata/tdis_software#FLO_2D
+:FLO_2D rdf:type owl:NamedIndividual ,
+                 <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+        :hasDescription "TBD" ;
+        :hasDistributionUrl "TBD" ;
+        :hasDistributor "TBD" ;
+        :hasLicense "TBD" ;
+        rdfs:comment "TBD" ;
+        rdfs:label "FLO-2D" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_EFM
+:HEC_EFM rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "The Ecosystem Functions Model (HEC-EFM) is designed to help study teams determine ecosystem responses to changes in the flow regime of a river or connected wetland." ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/" ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "TBD" ;
+         rdfs:comment "Hydrologic Engineering Center Ecosystem Functions Model" ;
+         rdfs:label "HEC-EFM" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_FDA
+:HEC_FDA rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "Software developed by HEC to compute an expected annual damage amount for structures within a flooded area. " ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-fda/ " ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "Public" ;
+         rdfs:comment "Hydrologic Engineering Center Flood Damage Reduction Analysis" ;
+         rdfs:label "HEC-FDA" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_FIA
+:HEC_FIA rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "Software developed by HEC to identify consequences from single event. These consequences include economic loss due to, structure damage, agriculture damage, and loss of life. " ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-fia/ " ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "Public" ;
+         rdfs:comment "Hydrologic Engineering Center Flood Impact Analysis" ;
+         rdfs:label "HEC-FIA" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_GeoHMS
+:HEC_GeoHMS rdf:type owl:NamedIndividual ,
+                     <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+            :hasDescription "Geospatial Hydrologic Modeling Extension (HEC-GeoHMS) has been developed as a geospatial hydrology toolkit for engineers and hydrologists with limited GIS experience. HEC-GeoHMS uses ArcGIS and the Spatial Analyst extension to develop a number of hydrologic modeling inputs for the Hydrologic Engineering Center's Hydrologic Modeling System, HEC-HMS." ;
+            :hasDistributionUrl "https://www.hec.usace.army.mil/software/" ;
+            :hasDistributor "US Army Corps of Engineers" ;
+            :hasLicense "TBD" ;
+            rdfs:comment "Hydrologic Engineering Center Geospatial Hydrologic Modeling Extension" ;
+            rdfs:label "HEC-GeoHMS" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_HMS
+:HEC_HMS rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "The Hydrologic Modeling System (HEC-HMS) is designed to simulate the complete hydrologic processes of dendritic watershed systems. The software includes many traditional hydrologic analysis procedures such as event infiltration, unit hydrographs, and hydrologic routing. HEC-HMS also includes procedures necessary for continuous simulation including evapo-transpiration, snowmelt, and soil moisture accounting. Advanced capabilities are also provided for gridded runoff simulation using the linear quasi-distributed runoff transform (ModClark). Supplemental analysis tools are provided for model optimization, forecasting streamflow, depth-area reduction, assessing model uncertainty, erosion and sediment transport, and water quality." ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-hms/" ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "Public" ;
+         rdfs:comment "Hydrologic Engineering Center Hydrologic Modeling System" ;
+         rdfs:label "HEC-HMS" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_MetVue
+:HEC_MetVue rdf:type owl:NamedIndividual ,
+                     <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+            :hasDescription "HEC-MetVue facilitates viewing and manipulation of meteorological datasets as well as performing a variety of computations and analyses, including temporal and spatial aggregation of datasets and areal average computations. HEC-MetVue is designed to perform temporal and spatial aggregation of meteorological datasets and performs areal average computations using input polygon shapefiles." ;
+            :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-metvue/" ;
+            :hasDistributor "US Army Corps of Engineers" ;
+            :hasLicense "Public" ;
+            rdfs:comment "Hydrologic Engineering Center Meteorological Visualization Utility Engine" ;
+            rdfs:label "HEC-MetVue" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_RAS
+:HEC_RAS rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "This software allows the user to perform one-dimensional steady flow, one and two-dimensional unsteady flow calculations, sediment transport/mobile bed computations, and water temperature/water quality modeling." ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-ras/" ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "Public" ;
+         rdfs:comment "Hydrologic Engineering Center River Analysis System" ;
+         rdfs:label "HEC-RAS" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_SSP
+:HEC_SSP rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "The Statistical Software Package (HEC-SSP) allows users to perform statistical analyses of hydrologic data. The current version of HEC-SSP can perform flood flow frequency analysis based on Bulletin 17B." ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-ssp/" ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "TBD" ;
+         rdfs:comment "Hydrologic Engineering Center Statistical Software Package" ;
+         rdfs:label "HEC-SSP" .
+
+
+###  https://w3id.org/metadata/tdis_software#HEC_WAT
+:HEC_WAT rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "The Watershed Analysis Tool (HEC-WAT) software developed by the U.S. Army Corps of Engineers' Hydrologic Engineering Center (HEC) is a model integration tool that allows multi-disciplinary teams in USACE offices to perform water resources studies." ;
+         :hasDistributionUrl "https://www.hec.usace.army.mil/software/hec-wat/" ;
+         :hasDistributor "US Army Corps of Engineers" ;
+         :hasLicense "Public" ;
+         rdfs:comment "Hydrologic Engineering Center Watershed Analysis Tool" ;
+         rdfs:label "HEC-WAT" .
+
+
+###  https://w3id.org/metadata/tdis_software#HY_8_Culvert
+:HY_8_Culvert rdf:type owl:NamedIndividual ,
+                       <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+              :hasDescription "TBD" ;
+              :hasDistributionUrl "https://www.fhwa.dot.gov/engineering/hydraulics/software/hy8/" ;
+              :hasDistributor "TBD" ;
+              :hasLicense "TBD" ;
+              rdfs:comment "TBD" ;
+              rdfs:label "HY-8 Culvert" .
+
+
+###  https://w3id.org/metadata/tdis_software#Hydro_CAD
+:Hydro_CAD rdf:type owl:NamedIndividual ,
+                    <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+           :hasDescription "TBD" ;
+           :hasDistributionUrl "https://www.hydrocad.net/" ;
+           :hasDistributor "TBD" ;
+           :hasLicense "TBD" ;
+           rdfs:comment "TBD" ;
+           rdfs:label "Hydro-CAD" .
+
+
+###  https://w3id.org/metadata/tdis_software#ICPR
+:ICPR rdf:type owl:NamedIndividual ,
+               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+      :hasDescription "TBD" ;
+      :hasDistributionUrl "https://streamnologies.com/content/" ;
+      :hasDistributor "Streamline Technologies" ;
+      :hasLicense "Proprietary" ;
+      rdfs:comment "Interconnected Channel and Pond Routing Model" ;
+      rdfs:label "ICPR" .
+
+
+###  https://w3id.org/metadata/tdis_software#InfoSWMM
+:InfoSWMM rdf:type owl:NamedIndividual ,
+                   <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+          :hasDescription "TBD" ;
+          :hasDistributionUrl "https://www.innovyze.com/en-us/products/infoswmm" ;
+          :hasDistributor "Innovyze" ;
+          :hasLicense "TBD" ;
+          rdfs:comment "InfoSWMM" ;
+          rdfs:label "InfoSWMM" .
+
+
+###  https://w3id.org/metadata/tdis_software#InfoWorks_ICM
+:InfoWorks_ICM rdf:type owl:NamedIndividual ,
+                        <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+               :hasDescription "TBD" ;
+               :hasDistributionUrl "https://www.innovyze.com/en-us/products/infoworks-icm" ;
+               :hasDistributor "Innovyze" ;
+               :hasLicense "Proprietary" ;
+               rdfs:comment "InfoWorks Integrated Catchment Modelling" ;
+               rdfs:label "InfoWorks ICM" .
+
+
+###  https://w3id.org/metadata/tdis_software#InfoWorks_WS_Pro
+:InfoWorks_WS_Pro rdf:type owl:NamedIndividual ,
+                           <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+                  :hasDescription "Sofware for engineers to accurately model water distribution systems." ;
+                  :hasDistributionUrl "https://www.autodesk.com/products/infoworks-ws-pro/overview " ;
+                  :hasDistributor "AUTODESK" ;
+                  :hasLicense "license" ;
+                  rdfs:comment "InfoWorks WS Pro" ;
+                  rdfs:label "InfoWorks WS Pro" .
+
+
+###  https://w3id.org/metadata/tdis_software#MIKE_21
+:MIKE_21 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "MIKE 21 is a computer program that simulates flows, waves, sediments and ecology in rivers, lakes, estuaries, bays, coastal areas and seas in two dimensions. It was developed by DHI." ;
+         :hasDistributionUrl "https://www.mikepoweredbydhi.com/products/mike-21/hydrodynamics" ;
+         :hasDistributor "DHI" ;
+         :hasLicense "Proprietary" ;
+         rdfs:comment "MIKE 21" ;
+         rdfs:label "MIKE 21" .
+
+
+###  https://w3id.org/metadata/tdis_software#OpenFlows_CivilStorm
+:OpenFlows_CivilStorm rdf:type owl:NamedIndividual ,
+                               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+                      :hasDescription "TBD" ;
+                      :hasDistributionUrl "https://www.bentley.com/en/products/product-line/hydraulics-and-hydrology-software/civilstorm" ;
+                      :hasDistributor "Bentley" ;
+                      :hasLicense "Proprietary" ;
+                      rdfs:comment "OpenFlows CivilStorm" ;
+                      rdfs:label "OpenFlows CivilStorm" .
+
+
+###  https://w3id.org/metadata/tdis_software#OpenFlows_CulvertMaster
+:OpenFlows_CulvertMaster rdf:type owl:NamedIndividual ,
+                                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+                         :hasDescription "TBD" ;
+                         :hasDistributionUrl "https://www.bentley.com/en/products/product-line/hydraulics-and-hydrology-software/culvertmaster" ;
+                         :hasDistributor "Bentley" ;
+                         :hasLicense "TBD" ;
+                         rdfs:comment "OpenFlows CulvertMaster" ;
+                         rdfs:label "OpenFlows CulvertMaster" .
+
+
+###  https://w3id.org/metadata/tdis_software#OpenFlows_FLOOD
+:OpenFlows_FLOOD rdf:type owl:NamedIndividual ,
+                          <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+                 :hasDescription "OpenFlows FLOOD is a complete flood modeling software for understanding and mitigating flood risks in urban, riverine, and coastal areas. OpenFlows FLOOD uses fully spatially-distributed numerical models to simulate all hydrological and hydraulic processes that occur in river basins, including rainfall, infiltration, surface runoff, channel flow, and groundwater flow." ;
+                 :hasDistributionUrl "https://www.bentley.com/en/products/product-line/hydraulics-and-hydrology-software/openflows-flood" ;
+                 :hasDistributor "Bentley" ;
+                 :hasLicense "Proprietary" ;
+                 rdfs:comment "OpenFlows FLOOD" ;
+                 rdfs:label "OpenFlows FLOOD" .
+
+
+###  https://w3id.org/metadata/tdis_software#OpenFlows_PondPack
+:OpenFlows_PondPack rdf:type owl:NamedIndividual ,
+                             <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+                    :hasDescription "TBD" ;
+                    :hasDistributionUrl "TBD" ;
+                    :hasDistributor "TBD" ;
+                    :hasLicense "TBD" ;
+                    rdfs:comment "TBD" ;
+                    rdfs:label "OpenFlows PondPack" .
+
+
+###  https://w3id.org/metadata/tdis_software#OpenFlows_StormCAD
+:OpenFlows_StormCAD rdf:type owl:NamedIndividual ,
+                             <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+                    :hasDescription "TBD" ;
+                    :hasDistributionUrl "https://www.bentley.com/en/products/product-line/hydraulics-and-hydrology-software/stormcad" ;
+                    :hasDistributor "Bentley" ;
+                    :hasLicense "Proprietary" ;
+                    rdfs:comment "OpenFlows StormCAD" ;
+                    rdfs:label "OpenFlows StormCAD" .
+
+
+###  https://w3id.org/metadata/tdis_software#Other
+:Other rdf:type owl:NamedIndividual ,
+                <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+       :hasDistributor "Other" ;
+       rdfs:label "Other" .
+
+
+###  https://w3id.org/metadata/tdis_software#PRMS
+:PRMS rdf:type owl:NamedIndividual ,
+               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+      :hasDescription "The Precipitation-Runoff Modeling System (PRMS) is a deterministic, distributed-parameter, physical process based modeling system developed to evaluate the response of various combinations of climate and land use on streamflow and general watershed hydrology." ;
+      :hasDistributionUrl "https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms" ;
+      :hasDistributor "US Geological Survey" ;
+      :hasLicense "Public" ;
+      rdfs:comment "Precipitation-Runoff Modeling System" ;
+      rdfs:label "PRMS" .
+
+
+###  https://w3id.org/metadata/tdis_software#RiverWare
+:RiverWare rdf:type owl:NamedIndividual ,
+                    <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+           :hasDescription "RiverWare is a river system modeling tool." ;
+           :hasDistributionUrl "https://www.riverware.org" ;
+           :hasDistributor "Center for Advanced Decision Support for Water and Environmental Systems, University of Colorado" ;
+           :hasLicense "Proprietary" ;
+           rdfs:comment "RiverWare" ;
+           rdfs:label "RiverWare" .
+
+
+###  https://w3id.org/metadata/tdis_software#SWAN
+:SWAN rdf:type owl:NamedIndividual ,
+               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+      :hasDescription "SWAN is a third-generation wave model, developed at Delft University of Technology, that computes random, short-crested wind-generated waves in coastal regions and inland waters." ;
+      :hasDistributionUrl "https://swanmodel.sourceforge.io" ;
+      :hasDistributor "Delft University of Technology" ;
+      :hasLicense "GPLv2+" ;
+      rdfs:comment "Simulating WAves Nearshore" ;
+      rdfs:label "SWAN" .
+
+
+###  https://w3id.org/metadata/tdis_software#SWAT
+:SWAT rdf:type owl:NamedIndividual ,
+               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+      :hasDescription "The Soil & Water Assessment Tool is a small watershed to river basin-scale model used to simulate the quality and quantity of surface and ground water and predict the environmental impact of land use, land management practices, and climate change. SWAT is widely used in assessing soil erosion prevention and control, non-point source pollution control and regional management in watersheds." ;
+      :hasDistributionUrl "https://swat.tamu.edu/software/" ;
+      :hasDistributor "Texas A&M University" ;
+      :hasLicense "Public" ;
+      rdfs:comment "Soil & Water Assessment Tool" ;
+      rdfs:label "SWAT" .
+
+
+###  https://w3id.org/metadata/tdis_software#SWMM
+:SWMM rdf:type owl:NamedIndividual ,
+               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+      :hasDescription "United States Environmental Protection Agency (EPA's) Storm Water Management Model (SWMM) is used for single event or long-term (continuous) simulations of water runoff quantity and quality in primarily urban areas. It is used throughout the world for planning, analysis, and design related to stormwater runoff, combined and sanitary sewers, and other drainage systems. It can be used to evaluate gray infrastructure stormwater control strategies, such as pipes and storm drains, and is a useful tool for creating cost-effective green/gray hybrid stormwater control solutions." ;
+      :hasDistributionUrl "https://www.epa.gov/water-research/storm-water-management-model-swmm" ;
+      :hasDistributor "Environmental Protection Agency" ;
+      :hasLicense "Public" ;
+      rdfs:comment "Storm Water Management Model" ;
+      rdfs:label "SWMM" .
+
+
+###  https://w3id.org/metadata/tdis_software#Unknown
+:Unknown rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDistributor "Unknown" ;
+         rdfs:label "Unknown" .
+
+
+###  https://w3id.org/metadata/tdis_software#WHAFIS
+:WHAFIS rdf:type owl:NamedIndividual ,
+                 <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+        :hasDistributionUrl "https://www.fema.gov/flood-maps/software" ;
+        :hasDistributor "Federal Emergency Management Agency" ;
+        :hasLicense "Public" ;
+        rdfs:comment "Wave Height Analysis for Flood Insurance Studies Model" ;
+        rdfs:label "WHAFIS" .
+
+
+###  https://w3id.org/metadata/tdis_software#WRAP
+:WRAP rdf:type owl:NamedIndividual ,
+               <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+      :hasDescription "Analyzes water rights flows." ;
+      :hasDistributionUrl "https://wrap.engr.tamu.edu/" ;
+      :hasDistributor "TBD" ;
+      :hasLicense "TBD" ;
+      rdfs:comment "Water Rights Analysis Package" ;
+      rdfs:label "WRAP" .
+
+
+###  https://w3id.org/metadata/tdis_software#XPSWMM
+:XPSWMM rdf:type owl:NamedIndividual ,
+                 <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+        :hasDescription "TBD" ;
+        :hasDistributionUrl "https://www.innovyze.com/en-us/products/xpswmm" ;
+        :hasDistributor "Innovyze" ;
+        :hasLicense "Proprietary" ;
+        rdfs:comment "XPSWMM" ;
+        rdfs:label "XPSWMM" .
+
+
+###  https://w3id.org/metadata/tdis_software#XPStorm
+:XPStorm rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/metadata/tdis_boundary_type#Software> ;
+         :hasDescription "TBD" ;
+         :hasDistributionUrl "https://www.innovyze.com/en-us/products/xpstorm" ;
+         :hasDistributor "Innovyze" ;
+         :hasLicense "Proprietary" ;
+         rdfs:comment "XPSWMM" ;
+         rdfs:label "XPStorm" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
